@@ -24,6 +24,15 @@ jobs:
       - run: PUBLIC_URL=/technology-radar npm run build:static
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          name: github-pages
+          path: build
+
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: build
@@ -35,15 +44,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          name: build
-          path: build
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
