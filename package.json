@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx aoe_technology_radar-buildRadar",
+    "build": "REACT_APP_RADAR_NAME=\"PagoPA Technology Radar\" npx aoe_technology_radar-buildRadar",
     "postbuild": "npm run generateJson",
     "prebuild:static": "npm run build",
     "build:static": "npx aoe_technology_radar-createStaticFiles",

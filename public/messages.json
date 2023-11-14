@@ -1,13 +1,11 @@
 {
-  "footerFootnote": "AOE is a leading global provider of services for digital transformation and digital business models. AOE relies exclusively on established Enterprise Open Source technologies. This leads to innovative solutions, digital products and portals in agile software projects, and helps build long-lasting, strategic partnerships with our customers.",
+  "footerFootnote": "PagoPA mission is to design, build and manage the country's digital services.",
   "socialLinks": [
-    { "href": "https://www.facebook.com/aoepeople", "iconName": "facebook" },
-    { "href": "https://twitter.com/aoepeople", "iconName": "twitter" },
-    { "href": "https://www.linkedin.com/company/aoe", "iconName": "linkedIn" },
-    { "href": "https://www.xing.com/company/aoe", "iconName": "xing" },
-    { "href": "https://www.instagram.com/aoepeople", "iconName": "instagram" },
-    { "href": "https://www.youtube.com/user/aoepeople", "iconName": "youtube" },
-    { "href": "https://github.com/aoepeople", "iconName": "github" }
+    {
+      "href": "https://www.linkedin.com/company/pagopa",
+      "iconName": "linkedIn"
+    },
+    { "href": "https://github.com/pagopa", "iconName": "github" }
   ],
   "pageHelp": {
     "paragraphs": [
@@ -15,12 +13,12 @@
         "headline": "Introduction",
         "values": [
           "Technology is moving fast and new technologies and innovations appear continuously.",
-          "It's essential for a development and technology company such as AOE to constantly improve and keep track with the latest useful innovations. It is important to openly look for innovations and new technologies and to question established technologies and methods every now and then.",
+          "It's essential for a development and technology company such as PagoPA to constantly improve and keep track with the latest useful innovations. It is important to openly look for innovations and new technologies and to question established technologies and methods every now and then.",
           "But, it is also important to wisely choose which technologies to use in our daily work and in the different projects we are carrying out. As we all know: There is no silver bullet."
         ]
       },
       {
-        "headline": "What is the AOE Technology Radar",
+        "headline": "What is the PagoPA Technology Radar",
         "values": [
           "The Tech Radar is an overview of different technologies - from languages, frameworks, tools and patterns to platforms - that we consider \"new or mentionable\". The radar therefore doesn't provide an overview of all established technologies - but it focuses on items that have recently gained in importance or changed. Items that have been on the radar in previous versions are not listed on the homepage, but they are still available in the complete overview and in the search."
         ]
@@ -37,7 +35,7 @@
         "values": [
           "The radar acts as an overview of technologies that we think everyone in the teams should currently know about.",
           "Its goal is to act as a guide and inspiration for the daily work in the teams. Its purpose is also to provide helpful information and a bird's-eye perspective - so that decisions can be taken with a much deeper understanding of the subject matter. This results in more informed and coordinated decisions.",
-          "We also hope that developers outside of AOE find the information in our technology overview inspirational.",
+          "We also hope that developers outside of PagoPA find the information in our technology overview inspirational.",
           "We group or categorize the items in 4 quadrants - (sometimes, when it's not 100% clear where a item belongs, we choose the best fit)."
         ]
       }
@@ -45,7 +43,7 @@
     "quadrants": [
       {
         "name": "Languages & Frameworks",
-        "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds."
+        "description": "We've placed development languages here, as well as more low-level development frameworks, which are useful for implementing custom software of all kinds."
       },
       {
         "name": "Tools",
@@ -79,10 +77,10 @@
       }
     ],
     "sourcecodeLink": {
-      "href": "https://github.com/AOEpeople/aoe_technology_radar",
-      "name": "AOE Tech Radar on GitHub",
-      "description": "Contributions and source code of the AOE Tech Radar are on GitHub:"
+      "href": "https://github.com/pagopa/engineering",
+      "name": "PagoPA Tech Radar on GitHub",
+      "description": "Contributions and source code of the PagoPA Tech Radar are on GitHub:"
     }
   },
-  "legalInformationLink": "https://www.aoe.com/en/imprint.html"
+  "legalInformationLink": "https://www.pagopa.it/privacy-policy"
 }

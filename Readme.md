@@ -5,24 +5,25 @@ based on [AOE technology radar](https://github.com/AOEpeople/aoe_technology_rada
 
 ## Content Guidelines
 
-New content should be tagged. The following tags are currently established:
+Place new Markdown content inside the `radar` directory (one Markdown file for each technology / pattern).
 
-- architecture
-- security
-- devops
-- frontend
-- agile
-- coding
-- quality assurance
-- ci/cd
-- ux/ui
-- documentation
-
-e.g. use like this:
+Start every `.md` file with a frontmatter header ie.
 
 ```md
-tags: [devops, security]
+---
+title: "Turborepo"
+ring: trial
+quadrant: "tools"
+tags: [build, frontend]
+---
 ```
+
+Tags: architecture, security, devops, frontend, agile,
+coding, quality assurance, ci/cd, ux/ui, documentation
+
+Rings: adopt, trial, assess, hold
+
+Quadrants: tools, methods-and-patterns, languages-and-frameworks, platforms-and-aoe-services
 
 ## Development
 
