@@ -6,6 +6,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,57 +20,27 @@ jobs:
         with:
           node-version: "lts/*"
       - run: npm ci
-      - run: PUBLIC_URL=/techradar npm run build:static
+      - run: PUBLIC_URL=/technology-radar npm run build:static
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
           name: build
           path: build
+
   deploy:
-    runs-on: ubuntu-20.04
-    if: github.ref == 'refs/heads/main'
     needs: build
+
     environment:
       name: techradar
-      url: https://www.aoe.com/techradar/index.html
+      url: https://pagopa.github.io/engineering/technology-radar/index.html
+
+    runs-on: ubuntu-latest
     steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: build
-          path: build
-      - uses: jakejarvis/s3-sync-action@master
-        with:
-          args: --acl public-read
-        env:
-          AWS_S3_BUCKET: "techradar.aoe.com"
-          AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.ACCESS_SECRET }}
-          AWS_REGION: "eu-central-1"
-          SOURCE_DIR: "build"
-          DEST_DIR: "techradar"
-  deploy-dev:
-    runs-on: ubuntu-20.04
-    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
-    needs: build
-    environment:
-      name: techradar-next
-      url: http://techradar-next.aoe.com.s3.eu-central-1.amazonaws.com/techradar/index.html
-    steps:
-      - run: echo "WARNING! THIS DEPLOYS A STAGING ENV, RERUN THIS JOB TO GET YOUR CHANGES DEPLOYED TO STAGING"
-      - name: Download Artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: build
-          path: build
-      - uses: jakejarvis/s3-sync-action@master
-        with:
-          args: --acl public-read
-        env:
-          AWS_S3_BUCKET: "techradar-next.aoe.com"
-          AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.ACCESS_SECRET }}
-          AWS_REGION: "eu-central-1"
-          SOURCE_DIR: "build"
-          DEST_DIR: "techradar"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

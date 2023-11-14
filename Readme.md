@@ -1,23 +1,22 @@
-# AOE Technology Radar - Content
+# PagoPA Technology Radar - Content
 
-This is the location of AOE techradar content - published under: https://www.aoe.com/techradar/index.html
-
-If you want to build your own techradar you may want to have a look at https://github.com/AOEpeople/aoe_technology_radar instead.
+This is the location of [PagoPA technology radar](https://pagopa.github.io/engineering/technology-radar/index.html),
+based on [AOE technology radar](https://github.com/AOEpeople/aoe_technology_radar).
 
 ## Content Guidelines
 
-New blips should be tagged. The following tags are currently established:
+New content should be tagged. The following tags are currently established:
 
-* architecture
-* security
-* devops
-* frontend
-* agile
-* coding
-* quality assurance
-* ci/cd
-* ux/ui
-* documentation
+- architecture
+- security
+- devops
+- frontend
+- agile
+- coding
+- quality assurance
+- ci/cd
+- ux/ui
+- documentation
 
 e.g. use like this:
 
@@ -28,12 +27,14 @@ tags: [devops, security]
 ## Development
 
 ### Host the application under a sub path
-To host the application under a sub path, set the environment variable `PUBLIC_URL`, e.g. "/techradar".
+
+To host the application under a sub path, set the environment variable `PUBLIC_URL`,
 The default is `/`.
 
-> For local development I recommend using `/build` and use this for the following steps. 
+> For local development use `/build` and use this for the following steps.
 
 ### Build the radar
+
 ```
 npm i
 PUBLIC_URL=/build npm run start
@@ -42,6 +43,7 @@ PUBLIC_URL=/build npm run start
 Then open here: http://localhost:8080/build
 
 ### Build the radar with static files
+
 ```
 npm i
 PUBLIC_URL=/build npm run start:static
@@ -50,9 +52,10 @@ PUBLIC_URL=/build npm run start:static
 Then open here: http://localhost:8080/build
 
 ### Regenerate the json file based on your changes on md files
+
 ```
 npm run generateJson
 ```
 
 You can do this while the server is running.
-You can find the newly created rd.json in "/build/rd.json". 
+You can find the newly created rd.json in "/build/rd.json".
