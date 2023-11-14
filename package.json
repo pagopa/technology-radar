@@ -16,7 +16,7 @@
     "start:server": "npx serve -s build -p 8080"
   },
   "dependencies": {
-    "aoe_technology_radar": "3.5.3"
+    "aoe_technology_radar": "^3.4.2"
   },
   "overrides": {
     "@svgr/webpack": "6.5.1"
@@ -32,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
