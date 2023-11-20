@@ -18,8 +18,7 @@ tags: [build, frontend]
 ---
 ```
 
-Tags: architecture, security, devops, frontend, agile,
-coding, quality assurance, ci/cd, ux/ui, documentation
+Tags: cloud, java, javascript, typescript, mobile, web, api, backend, frontend, aws, azure, ...
 
 Rings: adopt, trial, assess, hold
 
