@@ -28,6 +28,10 @@ tags: [build, frontend]
 | Rings     | adopt, trial, assess, hold                                                                |
 | Quadrants | tools, methods-and-patterns, languages-and-frameworks, platforms-and-aoe-services         |
 
+When a pull request is merged into the `main` branch
+the [radar website](https://pagopa.github.io/technology-radar) is automatically updated triggering
+a [GitHub Action](./.github/workflows/main.yml).
+
 ## Local development
 
 To start local development, install the necessary dependencies
