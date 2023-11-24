@@ -5,7 +5,11 @@ based on [AOE technology radar](https://github.com/AOEpeople/aoe_technology_rada
 
 ## Content Guidelines
 
-Place new Markdown content inside the `radar` directory (one Markdown file for each technology / pattern).
+In order to add new content to the radar,
+please follow these guidelines.
+
+Place new Markdown content inside the `radar` directory,
+one Markdown file for each technology / pattern.
 
 Start every `.md` file with a frontmatter header ie.
 
@@ -18,44 +22,35 @@ tags: [build, frontend]
 ---
 ```
 
-Tags: cloud, java, javascript, typescript, mobile, web, api, backend, frontend, aws, azure, ...
+| Key       | Possible values                                                                           |
+| --------- | ----------------------------------------------------------------------------------------- |
+| Tags      | cloud, java, javascript, typescript, mobile, web, api, backend, frontend, aws, azure, ... |
+| Rings     | adopt, trial, assess, hold                                                                |
+| Quadrants | tools, methods-and-patterns, languages-and-frameworks, platforms-and-aoe-services         |
 
-Rings: adopt, trial, assess, hold
+## Local development
 
-Quadrants: tools, methods-and-patterns, languages-and-frameworks, platforms-and-aoe-services
+To start local development, install the necessary dependencies
+then start the development server:
 
-## Development
-
-### Host the application under a sub path
-
-To host the application under a sub path, set the environment variable `PUBLIC_URL`,
-The default is `/`.
-
-> For local development use `/build` and use this for the following steps.
-
-### Build the radar
-
-```
-npm i
-PUBLIC_URL=/build npm run start
+```bash
+npm install
+npm run start
 ```
 
-Then open here: http://localhost:8080/build
+Finally, open the radar here: http://localhost:8080/
 
-### Build the radar with static files
+### Update content and UI
 
-```
-npm i
-PUBLIC_URL=/build npm run start:static
-```
-
-Then open here: http://localhost:8080/build
-
-### Regenerate the json file based on your changes on md files
+If you add new content to the radar directory,
+you may need to regenerate the `rd.json` file.
+You can do this while the server is running:
 
 ```
 npm run generateJson
 ```
 
-You can do this while the server is running.
-You can find the newly created rd.json in "/build/rd.json".
+## Support
+
+If you have any questions or suggestions, please use
+the [discussion forum on GitHub](https://github.com/pagopa/technology-radar/discussions).
