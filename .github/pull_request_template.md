@@ -20,7 +20,7 @@ change type -> either `add`, `remove`, `move` (change ring) or `edit` (any other
 
 ### Motivations
 <!-- 
-Optional. In case you want to add more context on why the proposed changes might be coinsidered.
+Optional. In case you want to add more context on why the proposed changes might be considered.
 Remove the section if not needed
 -->
 
@@ -41,10 +41,11 @@ things are done.
 - [ ] I've described at least one use case for the entry
 
 <!-- END SECTION: CONTENT -->
+
 <!-- SECTION: CHORE -->
 ### Motivations
 <!-- 
-Required. Add more context on why the proposed changes might be coinsidered.
+Required. Add more context on why the proposed changes might be considered.
 -->
 
 <!-- END SECTION: CHORE -->
