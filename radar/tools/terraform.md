@@ -2,7 +2,7 @@
 title: "Terraform"
 ring: adopt
 quadrant: "tools"
-tags: [cloud,iac,devops]
+tags: [cloud, iac, devops]
 ---
 
 [Terraform](https://www.terraform.io/) is an infrastructure
@@ -16,7 +16,8 @@ extensively employs Terraform to manage cloud infrastructure
 across various Cloud Service Providers, with a current focus
 on Azure and AWS.
 
-[Ourrepositories](https://github.com/orgs/pagopa/repositories?q=infra),
+[Our
+repositories](https://github.com/orgs/pagopa/repositories?q=infra),
 located at [PagoPA GitHub](https://github.com/orgs/pagopa),
 showcase the Terraform code we utilize. This approach allows
 us to streamline our cloud operations, ensuring scalability
