@@ -1,7 +1,10 @@
-# Technology Radar Pull Request Template
-
-When making a pull request, please ensure that the following
-things are done.
+<!--
+Hello 👋
+Thank you for contributing to our Technology Radar by proposing changes.
+When making a pull request to add content, please ensure that the following
+things are done. When not relevant (ie. when making changes to scripts
+or workflows), please remove this section and describe the purpose instead.
+-->
 
 - [ ] I've added a short description of the entry that
       clarifies what it does and why it's useful
