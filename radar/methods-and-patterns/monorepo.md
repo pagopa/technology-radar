@@ -7,9 +7,9 @@ tags: [all]
 
 In our continuous effort to optimize our software development processes, we
 suggest to evaluate the transition from a poly-repo (multiple repositories)
-approach to a monorepo (single repository) structure. This change is considered
-to promote better organization, easier maintenance, and enhanced collaboration
-across our projects.
+approach to a [monorepo](https://monorepo.tools/) (single repository) structure.
+This change is considered to promote better organization, easier maintenance,
+and enhanced collaboration across our projects.
 
 The current poly-repo setup presents several challenges:
 
