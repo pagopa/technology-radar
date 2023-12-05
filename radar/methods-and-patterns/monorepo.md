@@ -52,6 +52,7 @@ health and organization.
 
 ## List of mono-repositories
 
-https://github.com/pagopa/io-sign
 https://github.com/pagopa/developer-portal
 https://github.com/pagopa/io-services-cms
+https://github.com/pagopa/io-sign
+https://github.com/pagopa/pn-frontend
