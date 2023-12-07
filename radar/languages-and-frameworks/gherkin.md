@@ -5,7 +5,7 @@ quadrant: "languages-and-frameworks"
 tags: [all]
 ---
 
-Gherkin is a domain-specific language designed for describing software behavior without detailing how that behavior is implemented. It serves as a collaboration tool between technical and non-technical team members.
+[Gherkin](https://cucumber.io/docs/gherkin/reference/) is a domain-specific language designed for describing software behavior without detailing how that behavior is implemented. It serves as a collaboration tool between technical and non-technical team members.
 
 ### Key features:
 
