@@ -1,5 +1,5 @@
 ---
-title: "Azure Cloud Service Provider"
+title: "Microsoft Azure"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
 tags: [cloud, platform, azure]

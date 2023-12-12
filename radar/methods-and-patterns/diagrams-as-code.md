@@ -1,6 +1,6 @@
 ---
-title: "Diagrams as code"
-ring: adopt
+title: "Diagrams as Code"
+ring: trial
 quadrant: "methods-and-patterns"
 tags: [all]
 ---
