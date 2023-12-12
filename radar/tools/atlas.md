@@ -1,6 +1,6 @@
 ---
 title: "Atlas"
-ring: adopt
+ring: trial
 quadrant: "tools"
 tags: [database, migration, devops]
 ---
