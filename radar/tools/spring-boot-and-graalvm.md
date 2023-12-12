@@ -1,7 +1,7 @@
 ---
 title: "GraalVM"
 ring: adopt
-quadrant: "tool"
+quadrant: "tools"
 tags: [java,backend]
 ---
 The General Recursive Applicative and Algorithmic Language Virtual Machine (Graal VM) is a high-performance JDK distribution written for Java and other JVM languages, along with support for JavaScript, Ruby, Python, and several other languages. It provides a Native Image builder –  a tool to build native code from Java applications and package it together with the VM into a standalone executable. It is officially supported by the Spring Boot Maven and Gradle Plugin with a few exceptions.
