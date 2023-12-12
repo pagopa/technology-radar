@@ -17,4 +17,11 @@ This is achieved by influencing the developer experience with several factors:
 Sometimes, working with types requires developers to deal with Typescript-specific activities that have no direct impact on the transpilled code; developer communities often call this "type gymnastic".
 We accept the effort as we believe the advantage for the produced applications and the developer experience are worth the investment.
 
+### Use cases
+Typescript can be used with along side with other frameworks to create:
+* web applications that run in the browser;
+* mobile applications using `react-native`
+* web services using Node.js
+
+### Repositories using Typesctipt
 On [our GitHub organization](https://github.com/pagopa?q=&type=all&language=typescript) there are applications actually written in Typescript
