@@ -1,7 +1,7 @@
 ---
 title: "ESLint"
 ring: adopt
-quadrant: "languages-and-frameworks"
+quadrant: "tools"
 tags: [typescript, javascript]
 ---
 

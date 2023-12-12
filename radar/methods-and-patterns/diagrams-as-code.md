@@ -1,5 +1,5 @@
 ---
-title: "Diagrams as code"
+title: "Diagrams as Code"
 ring: adopt
 quadrant: "methods-and-patterns"
 tags: [all]
