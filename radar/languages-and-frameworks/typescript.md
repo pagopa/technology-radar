@@ -5,7 +5,7 @@ quadrant: "languages-and-frameworks"
 tags: [typescript]
 ---
 
-TypeScript is a superset of JavaScript that adds static typing to the language. It transpiles to JavaScript, meaning that an application written in Typescript will be executed in the a Javascript runtime. The JavaScript runtime, whether it's a browser environment or Node.js, doesn't have direct awareness of the original TypeScript source code. It treats the transpiled JavaScript code just like any other JavaScript code.
+[TypeScript](https://www.typescriptlang.org/) is a superset of JavaScript that adds static typing to the language. It transpiles to JavaScript, meaning that an application written in Typescript will be executed in the a Javascript runtime. The JavaScript runtime, whether it's a browser environment or Node.js, doesn't have direct awareness of the original TypeScript source code. It treats the transpiled JavaScript code just like any other JavaScript code.
 
 The purpose of using Typescript is for making it easier for developers to write safer and more maintainable code.
 This is achieved by influencing the developer experience with several factors:
