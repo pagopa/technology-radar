@@ -1,6 +1,6 @@
 ---
 title: "Gherkin"
-ring: adopt
+ring: trial
 quadrant: "languages-and-frameworks"
 tags: [testing]
 ---
