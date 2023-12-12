@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot & GraalVM"
+title: "GraalVM"
 ring: adopt
 quadrant: "tool"
 tags: [java,backend]
