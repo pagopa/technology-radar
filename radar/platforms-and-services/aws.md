@@ -1,5 +1,5 @@
 ---
-title: "AWS Cloud Service Provider"
+title: "Amazon Web Services"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
 tags: [cloud, platform, aws]
