@@ -22,3 +22,7 @@ It's based on the rock-solid Spring framework and provides excellent documentati
 
 - **Spring Data**: the mission is to provide a familiar and consistent, Spring-based programming model for data access while still retaining the special traits of the underlying data store. It makes it easy to use data access technologies, relational and non-relational databases, map-reduce frameworks, and cloud-based data services. 
 [Spring Data](https://spring.io/projects/spring-data)
+
+### Our use cases
+- [File Reporter](https://github.com/pagopa/rtd-ms-file-reporter): microservice responsible to provide an aggregated view of files sent and processed by tae system. Spring cloud and spring data are respectively used to integrate a kafka consumer and to provide access to a mongo database. By using spring framework the business logic which use these two integration are unaware of underlying technology and can be easily changed while the interfaces provided by spring keep stable.
+- [Decrypter](https://github.com/pagopa/rtd-ms-decrypter): microservice responsible to decrypt incoming Tae's files. The serivce has no REST/HTTP interface and communicates only through kafka queues. The integration with kafka is provided by spring cloud.
