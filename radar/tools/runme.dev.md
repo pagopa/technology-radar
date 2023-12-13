@@ -1,6 +1,6 @@
 ---
 title: "runme.dv"
-ring: trial
+ring: asses
 quadrant: "tools"
 tags: [scripting, pipeline, automation]
 ---
