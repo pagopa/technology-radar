@@ -21,7 +21,5 @@ It's based on the rock-solid Spring framework and provides excellent documentati
 
 - **Fast bootstrapping**: a lot of 'starter' dependencies to simplify your build configuration and make service ready to run
 
-### Our use cases
-- [File Reporter](https://github.com/pagopa/rtd-ms-file-reporter): microservice responsible to provide an aggregated view of a file processing system. Thanks to Spring Boot and it's 'starter' dependencies the microservice expose a REST interface and integrate a kafka consumer in a simple and configurable way.
-
-A lot of others microservice are using Spring Boot in production.
+### Repositories using Spring Boot
+Many [microservices](https://github.com/search?q=org%3Apagopa+path%3A**%2Fpom.xml+spring-boot+&type=code) are written using Spring Boot in our Github organization 
