@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI"
+title: "OpenAPI v3"
 ring: adopt
 quadrant: "methods-and-patterns"
 tags: [all, api, integration]
