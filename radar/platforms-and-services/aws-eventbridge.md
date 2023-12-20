@@ -1,5 +1,5 @@
 ---
-title: "AWS Lambda"
+title: "AWS EventBridge"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
 tags: [cloud, aws, event-driven]
