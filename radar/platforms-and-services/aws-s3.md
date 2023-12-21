@@ -1,8 +1,8 @@
 ---
-title: "AWS S3"
+title: "AWS SQS"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, aws, storage]
+tags: [cloud, aws, queue]
 ---
 
-[Amazon S3](https://aws.amazon.com/s3/), or Simple Storage Service, is a scalable and secure object storage service offered by AWS. It provides a simple web interface for storing and retrieving any amount of data from anywhere on the web. S3 is designed for durability, offering 99.999999999% (11 nines) of object durability. It is widely used for backup, archiving, content distribution, and as a foundation for various cloud-based applications. With features like versioning, access control, and server-side encryption, S3 ensures the reliability and security of stored data.
+[AWS SQS](https://aws.amazon.com/sqs/) is a fully managed message queuing service that enables decoupling and scaling of distributed systems components. It allows applications to send messages between different parts of a system without directly connecting components. SQS supports both standard and FIFO (First-In-First-Out) queues, ensuring reliable and ordered message delivery. As a serverless service, SQS eliminates the need for managing infrastructure, providing on-demand scalability and high availability. It integrates seamlessly with other AWS services, making it a reliable choice for building distributed and resilient applications.
