@@ -14,4 +14,4 @@ We use Azure App Service to run both frontend and backend applications written i
 io-backend is an example of a Typescript backend application:
 
 * [application repository](https://github.com/pagopa/io-backend)
-* [infrastructure repository](https://github.com/pagopa/io-infra/blob/main/src/core/app_backend.tf#L642) to provision App Service using internal Terraform modules
+* [infrastructure repository](https://github.com/pagopa/io-infra/blob/6d26bd3d90dc2103d4a0f1cb8212bddfc1af5340/src/core/app_backend.tf#L642) to provision App Service using internal Terraform modules
