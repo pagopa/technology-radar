@@ -9,4 +9,9 @@ tags: [cloud, azure, compute]
 
 ### Repositories using Azure App Service
 
-* We use Azure App Service to run both frontend and backend applications written in different languages. [io-backend](https://github.com/pagopa/io-backend) is an example of a Typescript backend application.
+We use Azure App Service to run both frontend and backend applications written in different languages.
+
+io-backend is an example of a Typescript backend application:
+
+* [application repository](https://github.com/pagopa/io-backend)
+* [infrastructure repository](https://github.com/pagopa/io-infra/blob/main/src/core/app_backend.tf#L642) to provision App Service using internal Terraform modules
