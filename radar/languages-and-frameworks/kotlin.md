@@ -1,6 +1,6 @@
 ---
-title: "Kotlin"
-ring: adopt
+title: "Kotlin for backend"
+ring: trial
 quadrant: "languages-and-frameworks"
 tags: [kotlin]
 ---
@@ -15,9 +15,7 @@ tags: [kotlin]
 4. **Concise code**: Kotlin eliminates some of the redundancy in the basic syntax of popular languages like Java. Kotlin is a timesaver for developers because it provides more concise code. Developers can write programs with less boilerplate code, increasing their productivity.
 
 ### Use cases
-Kotlin can be used with along side with other frameworks to create:
-* server-side applications;
-* Android applications.
+Kotlin was explored and tested for the development of [Reactive Microservice With Spring Boot](https://spring.io/reactive/).
 
 ### Repositories using Kotlin
-On [our GitHub organization](https://github.com/pagopa?q=&type=all&language=kotlin) there are applications actually written in Kotlin.
+On [our GitHub organization](https://github.com/topics/pagopa-ecommerce?l=kotlin) there are applications actually written in Kotlin for backend.
