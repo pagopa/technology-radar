@@ -28,7 +28,7 @@ tags: [build, frontend]
 | Rings     | adopt, trial, assess, hold                                                                |
 | Quadrants | tools, methods-and-patterns, languages-and-frameworks, platforms-and-aoe-services         |
 
-You can copy the sheet-template.md file to simplify writing a well-made card.
+You can copy the `sheet-template.md` file to simplify writing a well-made card.
 
 When a pull request is merged into the `main` branch
 the [radar website](https://pagopa.github.io/technology-radar) is automatically updated triggering
