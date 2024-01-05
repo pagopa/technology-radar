@@ -13,8 +13,7 @@ tags: [<main_tag>, <other_tags>]
 
 ## Reference of usage in our organization
 
-> A list of PagoPA repositories where described technology is applied successful in a production environment: 
+> A list of PagoPA repositories where described technology is applied successful in a production environment:
 > * adopt ring: almost 2 repo
 > * trial ring: almost 1 repo
-> * asses|hold ring: optional, you can delete this paragraph
-> eg: [application repository](https://github.com/pagopa/io-functions-app-messages)
+> * asses|hold ring: optional, you can delete this paragraph 
