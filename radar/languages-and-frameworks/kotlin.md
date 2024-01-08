@@ -2,7 +2,7 @@
 title: "Kotlin for backend"
 ring: trial
 quadrant: "languages-and-frameworks"
-tags: [kotlin]
+tags: [kotlin,api,backend]
 ---
 
 [Kotlin](https://kotlinlang.org/docs/home.html) is an open-source, statically-typed programming language that supports both object-oriented and functional programming. It is interoperable with the Java virtual machine (JVM), Java Class Libraries and Android.
