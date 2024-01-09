@@ -23,3 +23,7 @@ setup, we recommend not using it for new projects.
 3. **Migration Path:** Next.js also provides a clear migration path for existing
    Create React App projects, making it easier to transition existing projects
    if necessary.
+
+4. **State of the art**: the [official React
+   documentation](https://react.dev/learn/start-a-new-react-project) recommends
+   using Next.js.
