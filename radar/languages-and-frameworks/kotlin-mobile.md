@@ -1,5 +1,5 @@
 ---
-title: "Kotlin for mobile"
+title: "Kotlin for Android development"
 ring: adopt
 quadrant: "languages-and-frameworks"
 tags: [kotlin, mobile]
