@@ -31,3 +31,4 @@ On [our GitHub organization](https://github.com/pagopa):
 
 - [IO React Native Crypto](https://github.com/pagopa/io-react-native-crypto)
 - [IO React Native Login Utils](https://github.com/pagopa/io-react-native-login-utils)
+- [IO React Native JWT](https://github.com/pagopa/io-react-native-jwt)
