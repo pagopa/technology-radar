@@ -27,3 +27,4 @@ tags: [mobile, react-native, swift, kotlin, java, objective-c, c++]
 - [IO React Native Crypto](https://github.com/pagopa/io-react-native-crypto)
 - [IO React Native Login Utils](https://github.com/pagopa/io-react-native-login-utils)
 - [IO React Native JWT](https://github.com/pagopa/io-react-native-jwt)
+- [IO App Design System](https://github.com/pagopa/io-app-design-system)
