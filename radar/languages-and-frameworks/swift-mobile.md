@@ -1,5 +1,5 @@
 ---
-title: "Swift for mobile"
+title: "Swift for iOS development"
 ring: adopt
 quadrant: "languages-and-frameworks"
 tags: [swift, mobile]
