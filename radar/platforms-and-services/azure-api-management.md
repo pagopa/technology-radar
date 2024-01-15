@@ -11,7 +11,7 @@ tags: [cloud, azure, compute]
 
 Choose Azure API Management for a robust gateway, ensuring centralized control and enforcement of security policies, authentication, and authorization across your APIs, safeguarding against potential vulnerabilities and unauthorized access. Use it as a single entry point of your APIs.
 
-### Repositories using Azure App Service
+### Repositories using Azure Apim
 
 Due to the pricing, a single APIM instance is used for each product shared among different teams. APIM is a big modular product, so here's a list of APIM features definitions to use as example:
 
