@@ -10,7 +10,7 @@ tags: [mobile, react-native, swift, kotlin, java, objective-c, c++]
 #### Key features:
 
 1. **Simplicity**: Provides a CLI which guides you in the creation of different types of React Native libraries.
-2. **Toolchain**: Supports Typescript, ESLint, Prettier, TypeScript, Lefthook and Release It out of the box.
+2. **Toolchain**: Supports TypeScript, ESLint, Prettier, Lefthook and Release It out of the box.
 3. **Javascript library**: Supports for plain Javascript libraries supported by [Expo](https://expo.dev/).
 4. **Native view and native module**: Supports the creation of components with native view, allowing the leverage of native UI counterparts on specific platforms. Supports native module to expose functionality implemented in native code, offering a means to access device-specific features (camera, keystore, accelerometer, ecc.) or implement performance-critical tasks more efficiently through native code integration.
 5. **Turbo module and Fabric view**: Experimental support for Turbo module and Fabric view which allows for more efficient communication between native and JavaScript code by using JSI instead of a bridge which uses serialization via JSON like native modules.
