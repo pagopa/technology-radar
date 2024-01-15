@@ -13,7 +13,7 @@ Opt for Azure Cosmos DB for NoSQL simplicity with multi-model flexibility, provi
 
 ### Reference of usage in our organization
 
-We use Azure Cosmos DB in several applications, usually with SQL or Mongo API.
+We use Azure Cosmos DB in several applications, usually with SQL API.
 
 io-services-cms is an example of an application that reads and writes on a Cosmos DB using SQL API:
 
