@@ -9,7 +9,7 @@ tags: [cloud, azure, compute]
 
 ### Use cases
 
-Choose Azure API Management for a robust gateway, ensuring centralized control and enforcement of security policies, authentication, and authorization across your APIs, safeguarding against potential vulnerabilities and unauthorized access. Use it as a single entry point of your APIs.
+Choose Azure API Management for a gateway, ensuring centralized control and enforcement of security policies, authentication, and authorization across your APIs, safeguarding against potential vulnerabilities and unauthorized access. Use it as a single entry point of your APIs.
 
 ### Repositories using Azure Apim
 
