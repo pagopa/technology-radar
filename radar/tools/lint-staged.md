@@ -9,7 +9,7 @@ tags: [git, hooks]
 
 ## Use cases
 
-For example to run the linter and the prettier on all typescript or javascript files and prettier on all json or md files a configuration like the following can be used:
+For example to run the linter and the prettier on all staged typescript or javascript files and prettier on all json or md files, before committing, a configuration like the following can be used:
 
 - in `.husky/pre-commit`:
 
