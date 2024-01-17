@@ -14,7 +14,7 @@ tags: [typescript, javascript, nodejs, npm]
 
 ## Reference of usage in our organization
 
-An non exhaustive list of ou projects that use Yarn:
+A non exhaustive list of ou projects that use Yarn:
 
 - [io-backend](http://github.com/pagopa/io-backend)
 - [io-app](http://github.com/pagopa/io-app)
