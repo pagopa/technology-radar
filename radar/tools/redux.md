@@ -5,7 +5,7 @@ quadrant: "languages-and-frameworks"
 tags: [web, mobile, react, react-native, state-management, javascript]
 ---
 
-[redux](https://redux.js.org/)
+[Redux](https://redux.js.org/)
 
 Redux is a predictable state container for JavaScript applications. The centralization aspect helps manage the data flow within an application, making it more predictable and consistent. It can seamlessly work with different UI layers by providing bindings also for React and React Native.
 Redux works with a unidirectional data flow, ensuring a clear and predictable pattern for updating and managing application state. Actions, which represent events or user are dispatched to the store and reducers process these actions, producing a new state for the application. The state is immutable and changes are made only by dispatching actions. Immutability guarantees predictability and facilitates debugging and testing. It's easy to trace back which action caused a change in the state, which reducer processed it and which result was yielded.
