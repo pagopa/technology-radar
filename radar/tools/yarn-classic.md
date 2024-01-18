@@ -1,6 +1,6 @@
 ---
-title: "Yarn"
-ring: adopt
+title: "Yarn Classic"
+ring: hold
 quadrant: "tools"
 tags: [typescript, javascript, nodejs, npm]
 ---
@@ -19,4 +19,3 @@ A non exhaustive list of our projects that use Yarn:
 - [io-backend](http://github.com/pagopa/io-backend)
 - [io-app](http://github.com/pagopa/io-app)
 - [io-ts-common](http://github.com/pagopa/io-ts-commons)
-- [io-sign](https://github.com/pagopa/io-sign)
