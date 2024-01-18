@@ -2,7 +2,7 @@
 title: "Flipper"
 ring: adopt
 quadrant: "tools"
-tags: [react-native, ios, android, debug]
+tags: [mobile, react-native, ios, android, debug]
 ---
 
 [Flipper](https://fbflipper.com/) is a debugging tool for mobile apps that provides a GUI to inspect the app's state. It supports React Native, native iOS, and native Android apps and has been integrated into React Native as the default debugger from version 0.62 to version 0.73.
