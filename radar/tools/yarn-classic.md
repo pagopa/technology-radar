@@ -5,7 +5,7 @@ quadrant: "tools"
 tags: [typescript, javascript, nodejs, npm]
 ---
 
-[Yarn](https://yarnpkg.com/) is an open-source package manager used to manage dependencies in JavaScript projects alternative to npm. We use it, intead of npm, in our Node, Next and React projects.
+[Yarn](https://yarnpkg.com/) is an open-source package manager used to manage dependencies in JavaScript projects alternative to npm. We use it, intead of npm, in our Node, Next and React projects. The classic version is on hold in favor of the new version.
 
 ## Use cases
 
