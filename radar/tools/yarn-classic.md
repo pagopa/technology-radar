@@ -1,5 +1,5 @@
 ---
-title: "Yarn Classic"
+title: "Yarn Classic (version 1.x)"
 ring: hold
 quadrant: "tools"
 tags: [typescript, javascript, nodejs, npm]
