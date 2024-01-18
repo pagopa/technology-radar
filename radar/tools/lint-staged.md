@@ -2,7 +2,7 @@
 title: "lint-staged"
 ring: adopt
 quadrant: "tools"
-tags: [git, hooks]
+tags: [git]
 ---
 
 [lint-staged](https://github.com/lint-staged/lint-staged#readme) is a tool that allows to easily run linters against staged git files. We use it in our pre-commit hook usually in combination with Husky.
