@@ -11,7 +11,7 @@ tags: [cloud, azure, security]
 
 Managed Identities have a wide usage in our organization. They are the preferred way to authenticate services between each other due to the passwordless approach and the role assignment granularity. Creating a managed identity doesn't require any Entra ID role: RBAC built-in roles are sufficient. This is a strong point to prefer managed identities over service principals.
 
-Managed identities are preferred over connection strings too. Connection strings have a less role granular approach and make difficult to understand who and what are using them. Connection strings must be treated as secrets and they are subject to leaks if not properly stored. Having a key leak forces to keys rotation, and all applications would need to be properly updated creating a trickle-down effect.
+Managed identities are often preferred over connection strings. Connection strings are less granular in terms of role specification and make it difficult to identify who and what are using them. These strings should be treated as secrets, as they are at risk of being leaked if not securely stored. A key leak necessitates key rotation, creating a trickle-down effect where all related applications need to be updated accordingly.
 
 Use system-assigned identities for any service that needs to communicate with others, such as an [App Service](https://azure.microsoft.com/en-us/products/app-service) that wants to read data from a [Storage Account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview).
 
