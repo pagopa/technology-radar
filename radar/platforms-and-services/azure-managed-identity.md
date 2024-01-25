@@ -15,7 +15,7 @@ Managed identities are preferred over connection strings too. Connection strings
 
 Use system-assigned identities for any service that needs to communicate with others, such as an [App Service](https://azure.microsoft.com/en-us/products/app-service) that wants to read data from a [Storage Account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview).
 
-User-assigned identities are not bond to a specific resource in partiular and they have their own lifecycle. For this reason, they are used mainly to federate a subscription with an external services such as GitHub or Azure DevOps.
+User-assigned identities are not bound to a specific resource in particular and they have their own lifecycle. For this reason, they are primarily used to federate a subscription with external services such as GitHub or Azure DevOps
 
 ### Repositories using Managed Identities
 
