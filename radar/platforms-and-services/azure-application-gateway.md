@@ -12,8 +12,6 @@ tags: [cloud, azure, networking]
 Opt for Application Gateway when you need to load balance web applications (HTTP/HTTPS) that can be exposed on internet or not. Remember it is a regional service, so if your application runs in multiple regions you need to replicate the Application Gateway as well (opposed to the [Front Door](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview)).
 Application Gateway is often put in front of an [APIM](https://azure.microsoft.com/en-us/products/api-management) instance for its WAF capabilities, DDoS protection and SSL offloading.
 
-You can also use Application Gateway as ingress controller for your AKS cluster.
-
 A specific [implementation for containers](https://learn.microsoft.com/en-us/azure/application-gateway/for-containers/overview) is currently in preview.
 
 `Standard` and `WAF V2` SKUs are generally used respectively for development and production environments.
