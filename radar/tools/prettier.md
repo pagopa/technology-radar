@@ -18,4 +18,4 @@ tags: [typescript, formatting]
 Prettier is used in several TypeScript projects
 in combination with ESLint:
 
-https://github.com/search?q=org%3Apagopa+%22prettier%22+path%3A**%2Fpackage.json&type=code
+https://github.com/search?q=org%3Apagopa+%22\%22prettier\%22%22+path%3A**%2Fpackage.json&type=code
