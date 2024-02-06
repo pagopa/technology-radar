@@ -2,7 +2,7 @@
 title: "fp-ts"
 ring: trial
 quadrant: "languages-and-frameworks'
-tags: [functional]
+tags: [typescript]
 ---
 
 The [fp-ts](https://gcanti.github.io/fp-ts/) is a powerful library that brings functional programming concepts to TypeScript development. It provides a set of functional programming abstractions and utilities for building robust and type-safe applications. Leveraging algebraic data types, type classes, and immutable data structures, fp-ts enables developers to write functional, expressive, and statically-typed code in TypeScript.
