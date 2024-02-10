@@ -1,7 +1,7 @@
 ---
 title: "Detox"
-ring: asses
-quadrant: "trial"
+ring: trial
+quadrant: "tools"
 tags: [react-native, mobile, testing, e2e, android, ios]
 ---
 
