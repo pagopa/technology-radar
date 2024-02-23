@@ -9,7 +9,7 @@ tags: [cloud, azure, security]
 
 ### Use cases
 
-Azure Key Vault is essential for our organization's security, particularly when it comes to storing sensitive data such as connection strings and TLS certificates. It guarantees secure storage and management of these crucial assets, boosting data protection and ensuring compliance. Its integration with various Azure services streamlines workflows while maintaining strong security protocols, showcasing our dedication to safeguarding confidential information. Additionally, Key Vault's seamless integration with Azure services allows for easy access to secrets without compromising security.
+Azure Key Vault is essential for our organization's security, particularly when it comes to storing sensitive data such as connection strings and TLS certificates. It guarantees secure storage and management of these crucial assets, boosting data protection and ensuring compliance. Its integration with various Azure services streamlines workflows while maintaining strong security protocols, showcasing our dedication to safeguarding confidential information. Additionally, Key Vault's seamless integration with Azure services such as [App Service](https://azure.microsoft.com/en-us/products/app-service), [Function Apps](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-csharp) and [Container Apps](https://azure.microsoft.com/en-us/products/container-apps) allows for easy access to secrets without compromising security.
 
 ### Repositories using Azure Key Vault
 
