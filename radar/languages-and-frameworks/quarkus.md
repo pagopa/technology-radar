@@ -10,7 +10,7 @@ tags: [java, backend]
 
 ## Use cases
 
-- **Container First Approach**: Quarkus is designed with a minimal footprint specifically optimized for running in containers, ensuring efficient resource utilization and scalability in cloud-native environments.
+- **Container First Approach**: Quarkus is designed with a minimal footprint specifically optimized for running in containers, ensuring efficient resource utilization and scalability in cloud-native environments. It's lightweight nature and fast startup times make it well-suited for serverless computing environments.
 
 - **Imperative and Reactive Programming Model**: Quarkus seamlessly integrates imperative and reactive programming styles, enabling developers to leverage both paradigms within a single framework, thereby enhancing flexibility and productivity in application development.
 
