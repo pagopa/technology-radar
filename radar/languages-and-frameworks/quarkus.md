@@ -16,7 +16,7 @@ tags: [java, backend]
 
 - **Enterprise Applications**: Quarkus's support for standards and frameworks commonly used in enterprise Java development, such as JAX-RS, Hibernate ORM, and Eclipse MicroProfile, makes it a compelling choice for building a wide range of enterprise applications, including web applications, APIs, and backend services.
 
-### Repositories using Spring Boot
+### Repositories using Quarkus
 
 - Selfcare Onboarding domain (https://github.com/pagopa/selfcare-onboarding)
 - Selfcare User domain (https://github.com/pagopa/selfcare-user)
