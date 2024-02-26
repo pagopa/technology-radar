@@ -19,4 +19,4 @@ tags: [java, backend]
 ### Repositories using Spring Boot
 
 - Selfcare Onboarding domain (https://github.com/pagopa/selfcare-onboarding)
-- Selfcare Uset domain (https://github.com/pagopa/selfcare-user)
+- Selfcare User domain (https://github.com/pagopa/selfcare-user)
