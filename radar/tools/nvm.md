@@ -5,7 +5,7 @@ quadrant: "tools"
 tags: [typescript, nodejs, javascript]
 ---
 
-[nvm](https://https://github.com/nvm-sh/nvm) is a version manager for node.js,
+[nvm](https://github.com/nvm-sh/nvm) is a version manager for node.js,
 designed to be installed per-user, and invoked per-shell. It is a common tool
 for managing multiple versions of Node.js and is used by many developers.
 
