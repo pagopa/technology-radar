@@ -15,6 +15,6 @@ It offers extended features to its [nvm](https://github.com/nvm-sh/nvm) competit
 
 ## Reference of usage in our organization
 
-A list of repositories where Vitest is applied successful in a production environment:
+A list of repositories where Nodenv version file is used:
 
 https://github.com/search?q=org%3Apagopa+.node-version&type=code
