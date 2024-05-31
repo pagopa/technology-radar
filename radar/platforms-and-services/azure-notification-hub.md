@@ -22,6 +22,6 @@ Here are a few example scenarios:
 
 The Azure Notification Hub service is used within the IO infrastructure for registering user devices and sending push notifications.
 
-io-functions-pushnotifications is an example of an application that makes use of Azure Notification Hub to send millions of push notifications to App IO's users' devices:
+io-functions-pushnotifications is an example of an application that makes use of Azure Notification Hub to send millions of push notifications to the devices of App IO's users:
 
 * [application repository](https://github.com/pagopa/io-functions-pushnotifications)
