@@ -22,6 +22,6 @@ Here are a few example scenarios:
 
 The Azure Notification Hub service is used within the IO infrastructure for registering user devices and sending push notifications.
 
-io-services-cms is an example of an application that reads and writes on a Cosmos DB using SQL API:
+io-functions-pushnotifications is an example of an application that makes use of Azure Notification Hub to send millions of push notifications to App IO's users' devices:
 
 * [application repository](https://github.com/pagopa/io-functions-pushnotifications)
