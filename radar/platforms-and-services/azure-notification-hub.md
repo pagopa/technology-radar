@@ -25,3 +25,4 @@ The Azure Notification Hub service is used within the IO infrastructure for regi
 io-functions-pushnotifications is an example of an application that makes use of Azure Notification Hub to send millions of push notifications to the devices of App IO's users:
 
 * [application repository](https://github.com/pagopa/io-functions-pushnotifications)
+* [infrastructure definition](https://github.com/pagopa/io-infra/blob/52b624c44a5f00b434c86d999fa3bbdea91046d8/src/notification-hubs/prod/notification_hub_ntfns_common.tf#L1) to provision the Notification Hub namespace along with Notification Hubs and their authorization rules
