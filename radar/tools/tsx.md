@@ -2,7 +2,7 @@
 title: "tsx"
 ring: trial
 quadrant: tools
-tags: [typeScript, javaScript, cli]
+tags: [typescript, javaScript, cli]
 ---
 
 [tsx](https://tsx.is/) is a command-line tool that enables the execution of
