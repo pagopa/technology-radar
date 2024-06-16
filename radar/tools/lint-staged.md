@@ -5,11 +5,15 @@ quadrant: "tools"
 tags: [git]
 ---
 
-[lint-staged](https://github.com/lint-staged/lint-staged#readme) is a tool that allows to easily run linters against staged git files. We use it in our pre-commit hook usually in combination with Husky.
+[lint-staged](https://github.com/lint-staged/lint-staged#readme) is a tool that
+allows to easily run linters against staged git files. We use it in our
+pre-commit hook usually in combination with Husky.
 
 ## Use cases
 
-For example to run the linter and the prettier on all staged typescript or javascript files and prettier on all json or md files, before committing, a configuration like the following can be used:
+For example to run the linter and the prettier on all staged typescript or
+javascript files and prettier on all json or md files, before committing, a
+configuration like the following can be used:
 
 - in `.husky/pre-commit`:
 

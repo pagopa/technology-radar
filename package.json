@@ -9,6 +9,7 @@
     "prebuild:static": "npm run build",
     "build:static": "npx aoe_technology_radar-createStaticFiles",
     "generateJson": "npx aoe_technology_radar-generateJson",
+    "prettify": "prettier --write radar/**/*.{txt,md}",
     "prestart": "npm run build:static",
     "start": "npm run start:server",
     "prestart:static": "npm run build:static",
@@ -34,6 +35,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "prettier": "^3.3.2"
   }
 }

@@ -24,6 +24,6 @@ setup, we recommend not using it for new projects.
    Create React App projects, making it easier to transition existing projects
    if necessary.
 
-4. **State of the art**: the [official React
-   documentation](https://react.dev/learn/start-a-new-react-project) recommends
-   using Next.js.
+4. **State of the art**: the
+   [official React documentation](https://react.dev/learn/start-a-new-react-project)
+   recommends using Next.js.
