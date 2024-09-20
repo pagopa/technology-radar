@@ -1,7 +1,7 @@
 ---
-title: “Azure Storage Account”
+title: "Azure Storage Account"
 ring: adopt
-quadrant: “platforms-and-aoe-services”
+quadrant: "platforms-and-aoe-services"
 tags: [cloud, azure, storage]
 ---
 
