@@ -33,7 +33,7 @@ monitoring and observing the performance and availability of all deployed
 applications. It is used to track the health of services, collect custom
 telemetry, and monitor application dependencies to ensure smooth operation.
 
-- [Module definition](https://github.com/pagopa/io-infra/blob/main/src/common/_modules/monitoring/appi.tf)
+- [Resource definition](https://github.com/pagopa/io-infra/blob/main/src/common/_modules/monitoring/appi.tf)
   to provision Application Insights resources for real-time performance
   monitoring and diagnostics for various services in our platform.
 - [Data retrieve](https://github.com/pagopa/io-infra/blob/1d85e07b25c3c1c26dd36a25245abcfec87be56e/src/core/monitor.tf#L4)
