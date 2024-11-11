@@ -1,7 +1,7 @@
 ---
-title: “Azure Logic Apps"
+title: "Azure Logic Apps"
 ring: adopt
-quadrant: “platforms-and-aoe-services"
+quadrant: "platforms-and-aoe-services"
 tags: [cloud, azure, automation, integration]
 ---
 
