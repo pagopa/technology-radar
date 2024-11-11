@@ -29,7 +29,7 @@ Here are some typical scenarios:
 
 ### Reference of usage in our organization
 
-Azure Logic Apps is widely used within the IO infrastructure to orchestrate
+Azure Logic Apps is used within the IO infrastructure to orchestrate
 automated workflows and facilitate integration between internal systems and
 cloud services. Most configurations for Logic Apps in our organization have been
 managed directly through the Azure portal. Code-based configuration, however,
