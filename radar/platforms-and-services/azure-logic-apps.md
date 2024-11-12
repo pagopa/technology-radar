@@ -29,11 +29,18 @@ Here are some typical scenarios:
 
 ### Reference of usage in our organization
 
-Azure Logic Apps is used within the IO infrastructure to orchestrate
-automated workflows and facilitate integration between internal systems and
-cloud services. Most configurations for Logic Apps in our organization have been
-managed directly through the Azure portal. Code-based configuration, however,
-has only been implemented in this example:
+Azure Logic Apps is used within the IO infrastructure to orchestrate automated
+workflows and facilitate integration between internal systems and cloud
+services. Most configurations for Logic Apps have historically been managed
+directly through the Azure portal.
+
+However, creating resources directly in the Azure portal **should be avoided**, all
+Logic Apps should be provisioned and managed through code-based configuration in
+Terraform to ensure consistency and maintainability. If a Logic App is created
+in the portal or already exists, a backup of the configuration must be added to
+the codebase to maintain a complete infrastructure record.
+
+Code-based configuration, however, has only been implemented in this example:
 
 - [Logic App example in Terraform](https://github.com/pagopa/terraform-azure-auditlogs/blob/2f3ab91b561f442d241dbb5524f7307113a80f1b/examples/simple/03-test.tf#L111)
   for a specific automation workflow
