@@ -1,26 +1,30 @@
 ---
-title: "Hexagonal architecture"
+title: "Clean Architecture"
 ring: trial
 quadrant: "methods-and-patterns"
 tags: [all]
 ---
 
-# [Hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+# [Clean architecture](https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165)
 
-Hexagonal architecture is a software design pattern that promotes a clear
-separation of concerns and a strong dependency rule. It is based on the idea of
-a "hexagon" with the core business logic at the center and the external
-dependencies at the edges. The architecture is divided into three layers:
+Clean Architecture is a software design philosophy that separates the concerns
+of the application into distinct layers. It is based on the idea of a "onion"
+with the core business logic at the center and the external dependencies at the
+edges. The architecture is divided into four concentric layers.
 
-1. Core, which contains the **business logic** (*use cases*) and domain model
-  (*entities*): methods belonging to the core layer must not depend on any
-  external library or framework;
-2. Ports, which **define the interfaces** that the core layer can use to
-  interact with the external world;
-3. Adapters, which **implement the interfaces** and interact with external
-  dependencies.
+From the center to the edges, the layers are:
 
-Here are some advantages of using the "hexagonal architecture" approach:
+1. Entities, which contain **domain models** with their own methods:
+   methods belonging to the entities must not depend on any external library or
+   framework;
+2. Use Cases, which contain the **application-specific business rules**:
+   methods belonging to the use cases uses the entities and must not depend on any external library or framework;
+3. Interface Adapters, which **implement the interfaces** defined in the use
+   cases and interact with external dependencies;
+4. Frameworks & Drivers, which contain the **external dependencies** (e.g.,
+   database, network, UI).
+
+Here are some advantages of using the Clean Architecture" approach:
 
 - **Maintainability**: The architecture makes it easier to maintain and extend
   the codebase by isolating the core business logic from the external
@@ -30,28 +34,35 @@ Here are some advantages of using the "hexagonal architecture" approach:
   logic in isolation from the external dependencies: you don't need to mock the
   database or the network to test the business logic.
 
-## Comparison with Clean Architecture
+## Comparison with Hexagonal Architecture
 
-As Hexagonal architecture, Clean architecture is a software design philosophy
-that separates the concerns of the application into distinct layers. The
-architecture is divided into four layers:
+As Clean architecture, Heaxagonal architecture is a software design philosophy
+that separates the concerns of the application into distinct layers. 
 
-1. Entities
-2. Use Cases
-3. Interface Adapters
-4. Frameworks & Drivers
+It is based on the idea of a "hexagon" with the core business logic at the
+center and the external dependencies at the edges. The architecture is divided
+into three layers:
 
-Each layer has a specific responsibility and interacts with the other layers
-through well-defined interfaces.
+1. Core, which contains the **business logic** (*use cases*) and domain model
+  (*entities*): methods belonging to the core layer must not depend on any
+  external library or framework;
+1. Ports, which **define the interfaces** that the core layer can use to
+  interact with the external world;
+1. Adapters, which **implement the interfaces** and interact with external
+  dependencies.
 
 While **Clean Architecture** uses concentric circles with dependencies pointing
 inward, emphasizing a *hierarchy* between layers, **Hexagonal Architecture**
 employs a *symmetrical* model with ports and adapters to handle input/output
 uniformly, without strict hierarchies.
 
+In both architectures, the core business logic is isolated from the external
+dependencies. Each layer has a specific responsibility and interacts with the
+other layers through well-defined interfaces.
+
 ## Use cases
 
-Hexagonal architecture is well-suited for **microservices** because it allows
+Clean Architecture is well-suited for **microservices** because it allows
 you to isolate the business logic of each service from the external
 dependencies.
 
@@ -84,7 +95,7 @@ separation of concerns:
   (e.g., repositories, services, etc.) which are agnostic with respect to
   frameworks and external services.
 - **Use-cases** utilize entities and ports (e.g., repositories, services, etc.),
-  but do not import adapters.
+  but *never* import adapters.
 - **Adapters** implement the interfaces defined in the domain and are only
   imported in the entry point modules and in config.
 - **Entry points** act as the "Composition Root" and connect adapters to
@@ -103,6 +114,6 @@ directory of the repository.
 
 ### Reference of usage in our organization
 
-The **Hexagonal Architecture** is currently being trialed in the development of
+The **Clean Architecture** is currently being trialed in the development of
 users SSO for the IO mobile app [FIMS](https://github.com/pagopa/io-fims) and
 [Firma con IO](https://github.com/pagopa/io-sign).
