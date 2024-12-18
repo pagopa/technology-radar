@@ -49,9 +49,15 @@ inward, emphasizing a *hierarchy* between layers, **Hexagonal Architecture**
 employs a *symmetrical* model with ports and adapters to handle input/output
 uniformly, without strict hierarchies.
 
+## Use cases
+
+Hexagonal architecture is well-suited for **microservices** because it allows
+you to isolate the business logic of each service from the external
+dependencies.
+
 ## Example of application in a Typescript monorepo
 
-Here is an example of how to structure a Typescript workspace to implement
+Below is an example of how to structure a TypeScript workspace to achieve
 separation of concerns:
 
 ```
@@ -98,5 +104,5 @@ directory of the repository.
 ### Reference of usage in our organization
 
 The **Hexagonal Architecture** is currently being trialed in the development of
-users SSO for the IO mobile app [FIMS](https://github.com/pagopa/io-fims)
-and [Firma con IO](https://github.com/pagopa/io-sign).
+users SSO for the IO mobile app [FIMS](https://github.com/pagopa/io-fims) and
+[Firma con IO](https://github.com/pagopa/io-sign).
