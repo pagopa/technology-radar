@@ -24,7 +24,7 @@ From the center to the edges, the layers are:
 4. Frameworks & Drivers, which contain the **external dependencies** (e.g.,
    database, network, UI).
 
-Here are some advantages of using the Clean Architecture" approach:
+Here are some advantages of using the Clean Architecture approach:
 
 - **Maintainability**: The architecture makes it easier to maintain and extend
   the codebase by isolating the core business logic from the external
