@@ -18,5 +18,5 @@ Optic is an open-source tool that enhances API development by providing OpenAPI 
 
 ### Reference of usage in our organization
 
-- Selfcare Github Action (https://github.com/pagopa/selfcare-commons/tree/main/github-actions-template/swagger-detect-conflict-quarkus)
-- Selfcare API Automation (https://github.com/pagopa/selfcare-external-api-backend)
+- Selfcare Github Action (https://github.com/pagopa/selfcare-commons/tree/main/github-actions-template/swagger-detect-conflict-quarkus): Optic analyzes the proposed changes and compares the new specifications with existing ones to identify any breaking changes. In addition, GH fails if new changes doesn’t meet high-quality standards defined by Optic rules.
+- Selfcare API Automation (https://github.com/pagopa/selfcare-external-api-backend): Optic enhances the description of exposed REST APIs by automatically generating up-to-date documentation that reflects the latest changes.
