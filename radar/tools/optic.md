@@ -1,6 +1,6 @@
 ---
 title: "Optic"
-ring: adopt
+ring: trial
 quadrant: "tools"
 tags: [api, build, testing]
 ---
