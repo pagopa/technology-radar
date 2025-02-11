@@ -2,7 +2,7 @@
 title: "Husky"
 ring: adopt
 quadrant: "tools"
-tags: [git, hooks]
+tags: [git]
 ---
 
 [Husky](https://typicode.github.io/husky/) is a tool that allows to easily

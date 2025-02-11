@@ -2,7 +2,7 @@
 title: "Azure Managed Identity"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, security]
+tags: [cloud, azure, security, dx]
 ---
 
 [Azure Managed Identities](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)

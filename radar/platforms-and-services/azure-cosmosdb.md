@@ -2,7 +2,7 @@
 title: "Azure Cosmos DB"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, storage]
+tags: [cloud, azure, storage, dx]
 ---
 
 [Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db) is a

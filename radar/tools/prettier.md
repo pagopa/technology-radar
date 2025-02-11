@@ -2,7 +2,7 @@
 title: "Prettier"
 ring: adopt
 quadrant: "tools"
-tags: [typescript, formatting]
+tags: [typescript, dx]
 ---
 
 [Prettier](https://prettier.io/) is an opinionated code formatter. It removes

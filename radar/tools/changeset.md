@@ -2,7 +2,7 @@
 title: "Changeset"
 ring: adopt
 quadrant: "tools"
-tags: [typescript, javascript, monorepo, frontend, backend]
+tags: [typescript, monorepo, frontend, backend, dx]
 ---
 
 [Changeset](https://github.com/changesets/changesets)

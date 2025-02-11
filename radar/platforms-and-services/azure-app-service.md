@@ -2,7 +2,7 @@
 title: "Azure App Service"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, compute]
+tags: [cloud, azure, compute, dx]
 ---
 
 [Azure App Service](https://azure.microsoft.com/en-us/products/app-service) is a

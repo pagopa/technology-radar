@@ -2,7 +2,7 @@
 title: "AWS ECS Fargate"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, aws, serverless]
+tags: [cloud, aws, serverless, compute]
 ---
 
 [AWS ECS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html)

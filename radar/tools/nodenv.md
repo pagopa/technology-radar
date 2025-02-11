@@ -2,7 +2,7 @@
 title: "nodenv"
 ring: adopt
 quadrant: "tools"
-tags: [typescript, nodejs, javascript]
+tags: [typescript, nodejs]
 ---
 
 [nodenv](https://github.com/nodenv/nodenv) is a tool that allows you to install

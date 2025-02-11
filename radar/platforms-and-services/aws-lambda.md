@@ -2,7 +2,7 @@
 title: "AWS Lambda"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, aws, serverless]
+tags: [cloud, aws, serverless, compute]
 ---
 
 [AWS Lambda](https://aws.amazon.com/lambda/) is a serverless computing service
