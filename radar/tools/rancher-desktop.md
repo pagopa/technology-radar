@@ -9,6 +9,11 @@ tags: [containerization, kubernetes]
 application that provides Kubernetes and container management on your local
 machine.
 
+## Recommended setup for Apple Silicon Macs
+
+- `virtiofs` as Mount type for better FS performance
+- `VZ` as Virtual Machine Type with `Rosetta` enabled to run x86_64 images
+
 ## Use cases
 
 - Local development and testing of Kubernetes clusters
