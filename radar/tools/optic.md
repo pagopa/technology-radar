@@ -2,7 +2,7 @@
 title: "Optic"
 ring: trial
 quadrant: "tools"
-tags: [api, build, testing]
+tags: [api, build, testing, integration]
 ---
 
 [Optic](https://github.com/opticdev/optic)

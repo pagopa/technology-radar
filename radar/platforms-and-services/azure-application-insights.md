@@ -2,7 +2,7 @@
 title: "Azure Application Insights"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, monitoring, observability]
+tags: [cloud, azure, monitoring, observability, dx]
 ---
 
 [Azure Application Insights](https://azure.microsoft.com/en-us/products/monitor)

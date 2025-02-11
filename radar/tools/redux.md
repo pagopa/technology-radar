@@ -2,7 +2,7 @@
 title: "Redux"
 ring: adopt
 quadrant: "languages-and-frameworks"
-tags: [web, mobile, react, react-native, state-management, javascript]
+tags: [web, mobile, react, react-native]
 ---
 
 [Redux](https://redux.js.org/)

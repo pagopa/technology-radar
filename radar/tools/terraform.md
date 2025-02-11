@@ -2,7 +2,7 @@
 title: "Terraform"
 ring: adopt
 quadrant: "tools"
-tags: [cloud, iac, devops]
+tags: [cloud, iac, dx]
 ---
 
 [Terraform](https://www.terraform.io/) is an infrastructure as code tool that

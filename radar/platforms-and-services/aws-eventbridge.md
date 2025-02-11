@@ -2,7 +2,7 @@
 title: "AWS EventBridge"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, aws, event-driven]
+tags: [cloud, aws]
 ---
 
 [AWS EventBridge](https://docs.aws.amazon.com/eventbridge/) is a fully managed

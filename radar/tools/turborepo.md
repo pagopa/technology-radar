@@ -2,7 +2,7 @@
 title: "Turborepo"
 ring: adopt
 quadrant: "tools"
-tags: [typescript, javascript, monorepo, frontend, backend]
+tags: [typescript, monorepo, frontend, backend, dx]
 ---
 
 [Turborepo](https://turbo.build/) is a tool that allows you to manage multiple

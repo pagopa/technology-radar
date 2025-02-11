@@ -2,7 +2,7 @@
 title: "create-react-native-library"
 ring: adopt
 quadrant: "tools"
-tags: [mobile, react-native, swift, kotlin, java, objective-c, c++]
+tags: [mobile, react-native, swift, kotlin, java]
 ---
 
 [create-react-native-library](https://callstack.github.io/react-native-builder-bob/)
