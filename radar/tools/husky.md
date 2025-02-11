@@ -5,8 +5,11 @@ quadrant: "tools"
 tags: [git, hooks]
 ---
 
-[Husky](https://typicode.github.io/husky/) is a tool that allows to easily manage Git hooks. We use it in our projects to run scripts before committing or pushing code.
-Husky supports all [client-side Git hooks](https://git-scm.com/docs/githooks). It's easy to configure and use, compared to Git hooks, and it's well documented.
+[Husky](https://typicode.github.io/husky/) is a tool that allows to easily
+manage Git hooks. We use it in our projects to run scripts before committing or
+pushing code. Husky supports all
+[client-side Git hooks](https://git-scm.com/docs/githooks). It's easy to
+configure and use, compared to Git hooks, and it's well documented.
 
 ## Use cases
 
