@@ -2,7 +2,7 @@
 title: "Flipper"
 ring: adopt
 quadrant: "tools"
-tags: [mobile, react-native, ios, android, debug]
+tags: [mobile, react-native, debug]
 ---
 
 [Flipper](https://fbflipper.com/) is a debugging tool for mobile apps that

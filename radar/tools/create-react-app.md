@@ -2,7 +2,7 @@
 title: "Create React App"
 ring: hold
 quadrant: "tools"
-tags: [web, typescript, javascript, react]
+tags: [web, typescript, react]
 ---
 
 While [Create React App](https://create-react-app.dev/) has been a popular

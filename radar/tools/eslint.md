@@ -2,7 +2,7 @@
 title: "ESLint"
 ring: adopt
 quadrant: "tools"
-tags: [typescript, javascript]
+tags: [typescript, dx]
 ---
 
 [ESLint](https://eslint.org/) is a static code analysis tool for identifying problematic patterns found

@@ -2,7 +2,7 @@
 title: "Detox"
 ring: trial
 quadrant: "tools"
-tags: [react-native, mobile, testing, e2e, android, ios]
+tags: [react-native, mobile, testing]
 ---
 
 [Detox](https://wix.github.io/Detox/) is a gray box end-to-end testing and

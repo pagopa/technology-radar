@@ -2,7 +2,7 @@
 title: "Monorepo"
 ring: adopt
 quadrant: "methods-and-patterns"
-tags: [all]
+tags: [all, dx]
 ---
 
 In our continuous effort to optimize our software development processes, we

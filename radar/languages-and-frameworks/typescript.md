@@ -2,7 +2,7 @@
 title: "TypeScript"
 ring: adopt
 quadrant: "languages-and-frameworks"
-tags: [typescript]
+tags: [typescript, dx]
 ---
 
 [TypeScript](https://www.typescriptlang.org/) is a superset of JavaScript that

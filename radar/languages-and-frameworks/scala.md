@@ -2,7 +2,7 @@
 title: "Scala"
 ring: hold
 quadrant: "languages-and-frameworks"
-tags: [backend, jvm]
+tags: [backend]
 ---
 
 [Scala](https://www.scala-lang.org/) is a versatile programming language that

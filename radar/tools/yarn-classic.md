@@ -2,7 +2,7 @@
 title: "Yarn Classic (version 1.x)"
 ring: hold
 quadrant: "tools"
-tags: [typescript, javascript, nodejs, npm]
+tags: [typescript]
 ---
 
 [Yarn](https://classic.yarnpkg.com/lang/en/) is an open-source package manager

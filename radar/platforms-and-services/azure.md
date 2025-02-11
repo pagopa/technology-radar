@@ -2,7 +2,7 @@
 title: "Microsoft Azure"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, platform, azure]
+tags: [cloud, platform, azure, dx]
 ---
 
 Azure is Microsoft's public cloud computing platform. It provides a range of

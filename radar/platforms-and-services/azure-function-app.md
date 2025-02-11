@@ -2,7 +2,7 @@
 title: "Azure Function App"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, compute]
+tags: [cloud, azure, compute, dx]
 ---
 
 [Azure Function App](https://azure.microsoft.com/en-us/products/functions) is a

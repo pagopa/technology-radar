@@ -2,7 +2,7 @@
 title: "Azure Key Vault"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, security]
+tags: [cloud, azure, security, dx]
 ---
 
 [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault) is a

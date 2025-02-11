@@ -2,7 +2,7 @@
 title: "Azure Storage Account"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, storage]
+tags: [cloud, azure, storage, dx]
 ---
 
 [Azure Storage Account](https://azure.microsoft.com/en-us/products/category/storage)
