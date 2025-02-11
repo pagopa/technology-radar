@@ -32,7 +32,7 @@ development cycles to bring amazing applications to life quickly.
   range of enterprise applications, including web applications, APIs, and
   backend services.
 
-### Repositories using Quarkus
+### Reference of usage in our organization
 
 - Selfcare Onboarding domain (https://github.com/pagopa/selfcare-onboarding)
 - Selfcare User domain (https://github.com/pagopa/selfcare-user)

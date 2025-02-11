@@ -19,7 +19,7 @@ Gherkin files can be used as living documentation for software projects. They
 provide a clear and concise representation of the expected behavior, aiding in
 requirements understanding and maintenance.
 
-### Key features:
+## Key features
 
 - **Human-Readable Syntax**: Gherkin uses a plain-text format that is easy to
   understand by both technical and non-technical stakeholders. This facilitates
@@ -39,7 +39,7 @@ requirements understanding and maintenance.
   testing tool. This agnosticism allows teams to use Gherkin with various BDD
   tools and frameworks, fostering flexibility and adaptability.
 
-### Our use cases:
+## Reference of usage in our organization
 
 - [Test automation](https://github.com/pagopa/idpay-functional-testing): We use
   Gherkin as framework to automate funcional tests but its flexibility makes it

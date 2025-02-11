@@ -18,7 +18,7 @@ processing compiled Java applications ahead-of-time. Native Images generally
 have a smaller memory footprint and start faster than their JVM counterparts.
 [Spring Boot Native](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html)
 
-### Key features:
+## Key features:
 
 - **Native Images** A native image is a standalone executable that includes the
   application classes, classes from its dependencies, runtime library classes,
@@ -52,7 +52,7 @@ have a smaller memory footprint and start faster than their JVM counterparts.
 
 [GraalVM](https://www.graalvm.org/latest/docs/introduction/)
 
-### Enterprise use cases
+## Use cases
 
 A lot of companies are using GraalVM as a performance booster
 [https://www.graalvm.org/use-cases/](https://www.graalvm.org/use-cases/), for
@@ -60,9 +60,9 @@ example Disney use native image compilation to reduce cold startup time of
 [AWS lambda](https://aws.amazon.com/it/blogs/opensource/improving-developer-productivity-at-disney-with-serverless-and-open-source/)
 based on Java.
 
-### Tips & Tricks
+## Tips & Tricks
 
-#### Reflection
+### Reflection
 
 Native image compilation as some limitations regarding the usage of refelections
 cause it need all class information at build time. To solve this issue the
@@ -75,7 +75,7 @@ When there isn't reachibility metada for a particular library, GraalVM offers an
 [agent](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.advanced.using-the-tracing-agent)
 to capture metadata.
 
-#### Frameworks
+### Frameworks
 
 Spring Boot and Quarkus already supports GraalVM native image by relying on AOT
 compiler. There is some "guideline" to follows in order to successfuly get a
@@ -90,7 +90,7 @@ over a Java stack based microservice is a key enabler to native image of
 microservice. This is due to missing support , by GraalVM native compilation, to
 java agents, which is the main way to instrument java microservices.
 
-### Our use cases:
+## Reference of usage in our organization
 
 - (https://github.com/pagopa/rtd-ms-sender-auth) The Sender Auth is a µ-service
   responsible to store the association between sender code and api key, and the

@@ -112,8 +112,16 @@ directory of the repository.
 - `config.ts` aggregates these configurations and parses the environment (or
   other input, e.g., database) to populate the values for all adapters.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 The **Clean Architecture** is currently being trialed in the development of
 users SSO for the IO mobile app [FIMS](https://github.com/pagopa/io-fims) and
 [Firma con IO](https://github.com/pagopa/io-sign).
+
+## Resources
+
+- [The Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
+- [The Clean Architecture Blog Post](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [The Clean Architecture: How to write testable and maintainable code](https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165)
+- [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/)
+- [Hexagonal Architecture: Three Principles and an Implementation Example](https://reflectoring.io/spring-hexagonal/)

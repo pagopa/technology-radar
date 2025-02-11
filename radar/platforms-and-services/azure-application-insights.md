@@ -13,7 +13,7 @@ with applications. Application Insights supports a wide range of platforms,
 including .NET, Java, Node.js, and more, allowing for comprehensive
 observability of your application’s performance and availability.
 
-### Use cases
+## Use cases
 
 Here are a few example scenarios:
 
@@ -26,7 +26,7 @@ Here are a few example scenarios:
 - Correlate logs, traces, and metrics to detect potential application issues
   early.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 Azure Application Insights is deeply integrated into the IO infrastructure for
 monitoring and observing the performance and availability of all deployed

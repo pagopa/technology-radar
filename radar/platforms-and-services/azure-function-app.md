@@ -14,7 +14,7 @@ Function Apps support multiple programming languages such as C#, JavaScript,
 Python, and Java, facilitating rapid development and deployment of small,
 focused pieces of code (functions) that can scale automatically based on demand.
 
-### Repositories using Azure Function App
+## References of usage in our organization
 
 We use Azure Function App to run code snippets written in different languages.
 

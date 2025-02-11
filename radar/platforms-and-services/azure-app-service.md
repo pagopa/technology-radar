@@ -12,7 +12,7 @@ supports various programming languages, frameworks, and tools, including .NET,
 Java, Node.js, Python, and PHP, allowing for flexibility in application
 development.
 
-### Repositories using Azure App Service
+## References of usage in our organization
 
 We use Azure App Service to run both frontend and backend applications written
 in different languages.

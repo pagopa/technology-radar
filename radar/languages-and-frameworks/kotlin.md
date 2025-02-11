@@ -10,7 +10,7 @@ statically-typed programming language that supports both object-oriented and
 functional programming. It is interoperable with the Java virtual machine (JVM),
 Java Class Libraries and Android.
 
-#### Key features:
+## Key features
 
 1. **Interoperability**: Kotlin interoperates with Java because they compile to
    the same byte code. It is possible easily call Kotlin code from Java and Java
@@ -29,13 +29,11 @@ Java Class Libraries and Android.
    because it provides more concise code. Developers can write programs with
    less boilerplate code, increasing their productivity.
 
-### Use cases
+## Use cases
 
 Kotlin was explored and tested for the development of
 [Reactive Microservice With Spring Boot](https://spring.io/reactive/).
 
-### Repositories using Kotlin
+## Reference of usage in our organization
 
-On
-[our GitHub organization](https://github.com/topics/pagopa-ecommerce?l=kotlin)
-there are applications actually written in Kotlin for backend.
+- https://github.com/topics/pagopa-ecommerce?l=kotlin

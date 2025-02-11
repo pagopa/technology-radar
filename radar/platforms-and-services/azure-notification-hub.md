@@ -11,7 +11,7 @@ notifications to any platform (iOS, Android, Windows, etc.) from any back-end
 (cloud or on-premises). Notification Hubs works great for both enterprise and
 consumer scenarios.
 
-### Use cases
+## Use cases
 
 Here are a few example scenarios:
 
@@ -23,7 +23,7 @@ Here are a few example scenarios:
 - Notify users of enterprise events such as new messages and work items.
 - Send codes for multi-factor authentication.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 The Azure Notification Hub service is used within the IO infrastructure for
 registering user devices and sending push notifications.
