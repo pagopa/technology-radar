@@ -2,7 +2,7 @@
 title: "React Native"
 ring: adopt
 quadrant: "languages-and-frameworks"
-tags: [mobile]
+tags: [mobile, typescript]
 ---
 
 [React Native](https://reactnative.dev/) is a widely-used open-source mobile
@@ -15,11 +15,10 @@ industry leaders underscores the framework's capability to handle diverse and
 complex application needs. For more examples of its broad usage, see the
 [React Native showcase](https://reactnative.dev/showcase).
 
-### Use Cases
+## Use Cases
 
-- Use React Native whenever you're building a mobile app both for iOS and
-  Android.
+Use React Native whenever you're building a mobile app both for iOS and Android.
 
-### Repositories using React Native
+## Reference of usage in our organization
 
 - [IO App](https://github.com/pagopa/io-app)

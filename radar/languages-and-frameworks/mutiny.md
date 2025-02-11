@@ -2,7 +2,7 @@
 title: "SmallRye Mutiny"
 ring: trial
 quadrant: "languages-and-frameworks"
-tags: [java, backend, reactive]
+tags: [java, backend]
 ---
 
 ["SmallRye Mutiny"](https://smallrye.io/smallrye-mutiny/latest/) is a reactive

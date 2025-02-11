@@ -2,7 +2,7 @@
 title: "nodenv"
 ring: adopt
 quadrant: "tools"
-tags: [typescript, nodejs, javascript]
+tags: [typescript, nodejs]
 ---
 
 [nodenv](https://github.com/nodenv/nodenv) is a tool that allows you to install
@@ -20,6 +20,4 @@ also turns out to be much more stable and
 
 ## Reference of usage in our organization
 
-A list of repositories where Nodenv version file is used:
-
-https://github.com/search?q=org%3Apagopa+.node-version&type=code
+- https://github.com/search?q=org%3Apagopa+.node-version&type=code

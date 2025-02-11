@@ -15,7 +15,7 @@ protection against common web vulnerabilities. It also can be used as ingress
 controller for
 [AKS](https://azure.microsoft.com/en-us/products/kubernetes-service).
 
-### Use cases
+## Use cases
 
 Opt for Application Gateway when you need to load balance web applications
 (HTTP/HTTPS) that can be exposed on internet or not. Remember it is a regional
@@ -33,7 +33,7 @@ is currently in preview.
 `Standard` and `WAF V2` SKUs are generally used respectively for development and
 production environments.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 Any public facing web application is protected by the Application Gateway, which
 has a single instance for each stream.

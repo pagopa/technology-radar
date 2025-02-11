@@ -13,7 +13,7 @@ the need for managing infrastructure, providing on-demand scalability and high
 availability. It integrates seamlessly with other AWS services, making it a
 reliable choice for building distributed and resilient applications.
 
-### Use cases
+## Use cases
 
 Buffer requests until they can be consumed, whether ordered or not? <br/> if the
 answer is yes, use SQS.
@@ -22,7 +22,7 @@ answer is yes, use SQS.
 - Decouple microservices and process event-driven applications
 - Maintain message ordering with deduplication
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 - [Personal data vault Tokenizer](https://github.com/pagopa/pdv-tokenizer-infra)
 - [PDND Interoperabilita'](https://github.com/pagopa/interop-infra)

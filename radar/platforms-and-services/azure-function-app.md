@@ -2,7 +2,7 @@
 title: "Azure Function App"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, compute]
+tags: [cloud, azure, compute, dx]
 ---
 
 [Azure Function App](https://azure.microsoft.com/en-us/products/functions) is a
@@ -14,7 +14,7 @@ Function Apps support multiple programming languages such as C#, JavaScript,
 Python, and Java, facilitating rapid development and deployment of small,
 focused pieces of code (functions) that can scale automatically based on demand.
 
-### Repositories using Azure Function App
+## References of usage in our organization
 
 We use Azure Function App to run code snippets written in different languages.
 

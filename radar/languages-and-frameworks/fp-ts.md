@@ -30,3 +30,9 @@ expressive, and statically-typed code in TypeScript.
 There are
 [many projects](https://github.com/search?q=org%3Apagopa+path%3A**%2Fpackage.json+%22%5C%22fp-ts%5C%22%22+&type=code)
 using fp-ts.
+
+## Resources
+
+- [Learning resources](https://gcanti.github.io/fp-ts/learning-resources/)
+- [fp-ts Training Material](https://github.com/inato/fp-ts-training)
+- [fp-ts Tutorial Series on YouTube](https://www.youtube.com/playlist?list=PLUMXrUa_EuePN94nJ2hAui5nWDj8RO3lH)

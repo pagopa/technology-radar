@@ -2,7 +2,7 @@
 title: "Monorepo"
 ring: adopt
 quadrant: "methods-and-patterns"
-tags: [all]
+tags: [all, dx]
 ---
 
 In our continuous effort to optimize our software development processes, we
@@ -52,8 +52,13 @@ projects. This includes consolidating documentation, unifying pipeline
 configurations, and creating a comprehensive strategy for maintaining repository
 health and organization.
 
-## List of mono-repositories
+## Reference of usage in our organization
 
-https://github.com/pagopa/developer-portal
-https://github.com/pagopa/io-services-cms https://github.com/pagopa/io-sign
-https://github.com/pagopa/pn-frontend
+- https://github.com/pagopa/io-fims
+- https://github.com/pagopa/io-sign
+- https://github.com/pagopa/io-messages
+- https://github.com/pagopa/io-services-cms
+- https://github.com/pagopa/io-wallet
+- https://github.com/pagopa/io-auth-n-identity-domain
+- https://github.com/pagopa/developer-portal
+- https://github.com/pagopa/pn-frontend

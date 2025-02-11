@@ -10,7 +10,7 @@ is a serverless container orchestration and management service provided by
 Microsoft Azure. It enables developers to easily deploy and scale containerized
 applications, automatically managing underlying resources
 
-### Use cases
+## Use cases
 
 - **Serverless Container Orchestration**: Azure Container Apps allows developers
   to focus solely on building and deploying containerized applications without
@@ -25,7 +25,7 @@ applications, automatically managing underlying resources
   pricing, allowing users to pay only for the resources they use, making it a
   cost-effective solution for running container-based workloads at scale.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 - Selfcare Onboarding domain (https://github.com/pagopa/selfcare-onboarding)
 - Selfcare User domain (https://github.com/pagopa/selfcare-user)
