@@ -18,13 +18,13 @@ Azure Cosmos DB stands out for its versatility by supporting SQL, MongoDB,
 Cassandra, and other APIs, allowing developers to choose their preferred
 programming models and seamlessly migrate existing applications to the platform.
 
-### Use cases
+## Use cases
 
 Opt for Azure Cosmos DB for NoSQL simplicity with multi-model flexibility,
 providing efficient and scalable data storage. More details can be found
 [here](https://learn.microsoft.com/en-us/azure/cosmos-db/use-cases)
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 We utilize Azure Cosmos DB across multiple applications, predominantly employing
 the SQL API, which receives excellent support directly from the vendor.

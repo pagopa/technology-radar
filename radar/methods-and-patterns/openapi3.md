@@ -5,7 +5,7 @@ quadrant: "methods-and-patterns"
 tags: [all, api, integration]
 ---
 
-The [OpenAPI Specification (OAS) v3](https://spec.openapis.org/oas/v3.0.3) is a
+The [OpenAPI Specification (OAS) v3](https://spec.openapis.org/) is a
 widely accepted standard for describing RESTful APIs.
 
 It offers a rich and expressive format that enables developers to design,

@@ -17,7 +17,7 @@ documentation.
 
 [Spring Boot](https://spring.io/projects/spring-boot)
 
-### Key Features
+## Key Features
 
 - **Great community support**: the large community behind spring boot and
   Pivotal itself allow for ready-to-use integrations for most commonly used
@@ -29,7 +29,12 @@ documentation.
 - **Fast bootstrapping**: a lot of 'starter' dependencies to simplify your build
   configuration and make service ready to run
 
-### Repositories using Spring Boot
+## Use cases
+
+- **Microservices**: Spring Boot is a great choice for developing microservices
+  due to its ease of use and the large number of libraries available.
+
+## Reference of usage in our organization
 
 Many
 [microservices](https://github.com/search?q=org%3Apagopa+path%3A**%2Fpom.xml+spring-boot+&type=code)

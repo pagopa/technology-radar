@@ -43,16 +43,14 @@ code; developer communities often call this "type gymnastic". We accept the
 effort as we believe the advantage for the produced applications and the
 developer experience are worth the investment.
 
-### Use cases
+## Use cases
 
-TypeScript can be used with along side with other frameworks to create:
+TypeScript can be used along side with other frameworks to create:
 
 - web applications that run in the browser;
 - mobile applications using `react-native`
 - web services using Node.js
 
-### Repositories using TypeScript
+## Reference of usage in our organization
 
-On
-[our GitHub organization](https://github.com/pagopa?q=&type=all&language=typescript)
-there are applications actually written in TypeScript
+- https://github.com/pagopa?q=&type=all&language=typescript

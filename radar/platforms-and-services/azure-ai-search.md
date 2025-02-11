@@ -9,7 +9,7 @@ tags: [cloud, azure, ai]
 
 Information retrieval is foundational to any app that surfaces text and vectors. Common scenarios include catalog or document search, data exploration, and increasingly feeding query results to prompts based on your proprietary grounding data for conversational and copilot search.
 
-### Use cases
+## Use cases
 
 Here are a few example scenarios:
 
@@ -18,7 +18,7 @@ Here are a few example scenarios:
 - Rich query syntax for vector queries, text search, hybrid queries, fuzzy search, autocomplete, geo-search and others
 - Relevance and query performance tuning with semantic ranking, scoring profiles, quantization for vector queries, and parameters for controlling query behaviors at runtime
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 **Azure AI Search** powers the search engine behind the IO app, enabling users to swiftly search and navigate through hundreds of thousands of entities and services within milliseconds.
 

@@ -16,14 +16,14 @@ backend services and provides a user-friendly interface for efficient API
 development. Overall, Azure API Management empowers organizations to optimize
 their API ecosystems and enhance the overall developer experience.
 
-### Use cases
+## Use cases
 
 Choose Azure API Management for a gateway, ensuring centralized control and
 enforcement of security policies, authentication, and authorization across your
 APIs, safeguarding against potential vulnerabilities and unauthorized access.
 Use it as a single entry point of your APIs.
 
-### Repositories using Azure Apim
+## Repositories using Azure Apim
 
 Due to the pricing, a single APIM instance is used for each product shared among
 different teams. APIM is a big modular product, so here's a list of APIM

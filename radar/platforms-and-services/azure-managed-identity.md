@@ -17,7 +17,7 @@ managing and storing sensitive credentials. Azure Managed Identities come in two
 types: System-assigned, which is tied to an Azure resource, and User-assigned,
 which can be associated with multiple resources.
 
-### Use cases
+## Use cases
 
 Managed Identities have a wide usage in our organization. They are the preferred
 way to authenticate services between each other due to the passwordless approach
@@ -42,7 +42,7 @@ User-assigned identities are not bound to a specific resource in particular and
 they have their own lifecycle. For this reason, they are primarily used to
 federate a subscription with external services such as GitHub or Azure DevOps
 
-### Repositories using Managed Identities
+## Repositories using Managed Identities
 
 Any Azure resource can have a system-assigned identity. Here an example:
 

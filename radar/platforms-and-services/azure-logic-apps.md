@@ -12,7 +12,7 @@ Apps supports connectors for various cloud services, like Office 365, Dynamics
 365, and others, simplifying integration with on-premises applications and
 third-party services.
 
-### Use cases
+## Use cases
 
 Here are some typical scenarios:
 
@@ -27,7 +27,7 @@ Here are some typical scenarios:
 - Notification Management: Integrate with services like Microsoft Teams or Slack
   to notify teams of important events or updates.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 Azure Logic Apps is used within the IO infrastructure to orchestrate automated
 workflows and facilitate integration between internal systems and cloud

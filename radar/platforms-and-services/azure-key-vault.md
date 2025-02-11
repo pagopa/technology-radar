@@ -18,7 +18,7 @@ and protect their sensitive information in a scalable and highly available
 environment. It also provides mechanism for soft delete, key rotation, granular
 access control using either RBAC or Entra ID integrated access policies.
 
-### Use cases
+## Use cases
 
 Azure Key Vault is essential for our organization's security, particularly when
 it comes to storing sensitive data such as connection strings and TLS
@@ -32,7 +32,7 @@ Additionally, Key Vault's seamless integration with Azure services such as
 and [Container Apps](https://azure.microsoft.com/en-us/products/container-apps)
 allows for easy access to secrets without compromising security.
 
-### Repositories using Azure Key Vault
+## Reference of usage in our organization
 
 Every project running on Azure has its own Key Vault to store sensitive
 information.

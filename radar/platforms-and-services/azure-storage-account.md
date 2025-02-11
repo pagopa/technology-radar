@@ -12,7 +12,7 @@ anywhere in the world via HTTP/HTTPS. It offers multiple storage types including
 blob, file, table, and queue, suitable for various use cases from static website
 hosting to backup and disaster recovery.
 
-### Use cases
+## Use cases
 
 Here are a few example scenarios:
 
@@ -25,7 +25,7 @@ Here are a few example scenarios:
 - Manage large volumes of logs and backup data efficiently.
 - Securely share files with managed access via Azure File Shares.
 
-### Reference of usage in our organization
+## Reference of usage in our organization
 
 The Azure Storage Account service is widely used within the IO infrastructure
 for multiple purposes, such as storing logs, handling notifications, and
