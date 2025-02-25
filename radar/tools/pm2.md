@@ -1,6 +1,6 @@
 ---
 title: "PM2"
-ring: trial
+ring: adopt
 quadrant: "tools"
 tags: [nodejs, compute]
 ---
