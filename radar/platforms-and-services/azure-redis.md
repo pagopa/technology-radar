@@ -2,7 +2,7 @@
 title: "Azure Cache for Redis"
 ring: adopt
 quadrant: "platforms-and-aoe-services"
-tags: [cloud, azure, ai]
+tags: [cloud, azure, cache]
 ---
 
 [Azure Cache for Redis](https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview) is a fully managed in-memory caching service that provides fast data access with low latency and high throughput. It is based on the open-source Redis engine and is designed to improve application performance by offloading database queries and enabling real-time analytics. The service supports multiple data structures, automatic scaling, and high availability with geo-replication options.
