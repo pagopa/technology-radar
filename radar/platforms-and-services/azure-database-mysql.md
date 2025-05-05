@@ -9,7 +9,7 @@ tags: [cloud, azure, database, mysql, legacy]
 
 ## Use cases
 
-While Azure Database for MySQL is suitable for applications requiring a MySQL backend (e.g., many popular CMS platforms, web applications developed with LAMP stack), its usage is discouraged within our organization.
+While Azure Database for MySQL is suitable for applications requiring a MySQL managed database (e.g., many popular CMS platforms, web applications developed with LAMP stack), it is important to note that Microsoft has announced the retirement of Azure Database for MySQL - Single Server, scheduled for **March 28, 2025**.
 
 ## Reference of usage in our organization
 

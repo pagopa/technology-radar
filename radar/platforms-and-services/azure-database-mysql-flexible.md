@@ -9,7 +9,7 @@ tags: [cloud, azure, database, mysql]
 
 ## Use cases
 
-Suitable for applications requiring a MySQL backend with enhanced control, performance, and availability features. This includes web applications, e-commerce platforms, and content management systems built on MySQL that need a managed cloud database solution.
+Ideal for production workloads requiring a MySQL database with high availability, granular control over server configuration, and cost optimization. Suitable for new applications or migrating from Single Server or on-premises instances. This includes web applications, e-commerce platforms, and content management systems built on MySQL that need a managed cloud database solution.
 
 ## Reference of usage in our organization
 
