@@ -18,4 +18,4 @@ tags: [cloud, azure, data, etl, integration]
 
 Azure Data Factory has been adopted within our organization as a centralized solution for orchestrating data ingestion and transformation pipelines. We leverage its capabilities primarily for managing our data workflows through a single, centralized Data Factory instance.
 
-An implementation includes our cross-region data migration initiative. We've successfully setup Azure Data Factory for data migration to the Italy North region. The infrastructure definition, is available in our [GitHub repository](https://github.com/pagopa/io-infra/blob/main/src/migration/prod/italynorth.tf).
+An implementation includes our cross-region data migration initiative. We've successfully setup Azure Data Factory for data migration to the Italy North region. The infrastructure definition, is available in our [GitHub repository](https://github.com/pagopa/io-infra/blob/0dadcd39e94d4b3e071cd80bed81e3fe2d3b51a3/src/migration/prod/italynorth.tf).
