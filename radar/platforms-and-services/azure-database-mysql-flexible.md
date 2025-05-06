@@ -5,11 +5,11 @@ quadrant: "platforms-and-aoe-services"
 tags: [cloud, azure, database, mysql]
 ---
 
-[Azure Database for MySQL - Flexible Server](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview) is the newer, fully managed database service offering for MySQL on Azure, designed to provide more granular control, better performance, and higher availability compared to the legacy Single Server model. It offers features like zone redundancy, custom maintenance windows, and better cost optimization.
+[Azure Database for MySQL - Flexible Server](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/overview) is a fully managed database service offering for MySQL on Azure, designed to provide granular control, better performance, and higher availability. It offers features like zone redundancy, custom maintenance windows, and better cost optimization.
 
 ## Use cases
 
-Ideal for production workloads requiring a MySQL database with high availability, granular control over server configuration, and cost optimization. Suitable for new applications or migrating from Single Server or on-premises instances. This includes web applications, e-commerce platforms, and content management systems built on MySQL that need a managed cloud database solution.
+Ideal for production workloads requiring a MySQL database with high availability, granular control over server configuration, and cost optimization. Suitable for new applications or migrating from other MySQL deployments or on-premises instances. This includes web applications, e-commerce platforms, and content management systems built on MySQL that need a managed cloud database solution.
 
 ## Reference of usage in our organization
 
