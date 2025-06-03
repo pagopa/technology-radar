@@ -2,7 +2,7 @@
 title: "NPM"
 ring: hold
 quadrant: "tools"
-tags: [nodejs]
+tags: [nodejs, javascript, typescript, frontend, web, backend]
 ---
 
 npm is the default package manager for Node.js and the largest ecosystem of open source libraries in the JavaScript world. It provides a straightforward way to manage project dependencies, publish packages, and handle scripts for development workflows.
