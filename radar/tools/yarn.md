@@ -2,7 +2,7 @@
 title: "Yarn"
 ring: hold
 quadrant: "tools"
-tags: [nodejs]
+tags: [nodejs, javascript, typescript, frontend, web, backend]
 ---
 
 Yarn is a fast, reliable, and secure package manager for JavaScript and Node.js projects, designed as an alternative to npm. It introduced features like deterministic dependency resolution and offline caching, aiming to improve the developer experience and project reproducibility.
