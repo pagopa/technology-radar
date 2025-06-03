@@ -1,7 +1,6 @@
 {
   "name": "@pagopa/technology-radar",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "REACT_APP_RADAR_NAME=\"PagoPA Technology Radar\" npx aoe_technology_radar-buildRadar",
@@ -12,15 +11,9 @@
     "prettify": "prettier --write radar/**/*.{txt,md}",
     "prestart": "npm run build:static",
     "start": "npm run start:server",
+    "start:server": "npx serve -s build -p 8080",
     "prestart:static": "npm run build:static",
-    "start:static": "npm run start:server",
-    "start:server": "npx serve -s build -p 8080"
-  },
-  "dependencies": {
-    "aoe_technology_radar": "^3.4.2"
-  },
-  "overrides": {
-    "@svgr/webpack": "6.5.1"
+    "start:static": "npm run start:server"
   },
   "browserslist": {
     "production": [
@@ -34,8 +27,15 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "@svgr/webpack": "6.5.1"
+  },
+  "dependencies": {
+    "aoe_technology_radar": "^3.4.2"
+  },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@devcontainers/cli": "^0.76.0",
     "prettier": "^3.3.2"
   }
 }
