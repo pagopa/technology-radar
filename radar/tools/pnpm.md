@@ -2,7 +2,7 @@
 title: "pnpm"
 ring: assess
 quadrant: "tools"
-tags: [nodejs]
+tags: [nodejs, javascript, typescript, frontend, web, backend]
 ---
 
 pnpm is a fast, disk space-efficient package manager for JavaScript and Node.js projects. It uses a unique symlink-based approach to manage dependencies, storing them in a global content-addressable store and linking them into projects as needed. This results in faster installs and significant disk space savings, especially in monorepos or environments with many projects.
