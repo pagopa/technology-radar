@@ -11,8 +11,7 @@
     }
   },
   "postStartCommand": {
-    "set-workspace-as-safe-dir": "git config --global --add safe.directory ${containerWorkspaceFolder}",
-    "enable-corepack": "COREPACK_ENABLE_DOWNLOAD_PROMPT=0 corepack enable"
+    "set-workspace-as-safe-dir": "git config --global --add safe.directory ${containerWorkspaceFolder}"
   },
   "customizations": {
     "vscode": {
