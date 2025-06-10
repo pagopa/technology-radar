@@ -17,7 +17,7 @@ tags: [javascript, nodejs, typescript]
 
 4. **Interoperability Issues**: Using CommonJS alongside ESM can lead to interoperability challenges, especially in projects that use both module systems. Some tools and libraries may require additional configuration or transpilation steps.
 
-## Migration Path
+## Working with ESM
 
 When working with existing CommonJS projects:
 
