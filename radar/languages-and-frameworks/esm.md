@@ -43,6 +43,19 @@ export const myFunction = () => {};
 export class MyClass {}
 ```
 
+## Typescript Support
+
+To use ESM in TypeScript, you need to configure your `tsconfig.json` file appropriately. Here’s an example configuration:
+
+```json
+{
+  "compilerOptions": {
+    "module": "NodeNext", // Output ESM format
+    "moduleResolution": "NodeNext", // Use Node's module resolution algorithm
+  }
+}
+```
+
 ## Reference of usage in our organization
 
 ESM is used in our modern TypeScript/JavaScript projects as the default module system. Examples include:
