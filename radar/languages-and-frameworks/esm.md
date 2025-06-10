@@ -18,31 +18,29 @@ tags: [javascript, nodejs, typescript]
 
 3. **Asynchronous by Design**: ESM supports both synchronous and asynchronous module loading, making it more flexible than CommonJS.
 
-## Use Cases
-
-- New JavaScript/TypeScript projects where module organization is important
-- Projects that need to work in both browser and Node.js environments
-- Libraries that need to be tree-shakeable
-- Applications where bundle size optimization is critical
-
 ## Best Practices
 
-1. Use the `.mjs` extension for pure ESM files or set `"type": "module"` in your `package.json`
+1. Set `"type": "module"` in your `package.json` or use the `.mjs` extension (`.mts` on TypeScript) for pure ESM files
 2. Prefer named exports over default exports for better tooling support
-3. Keep modules focused and single-responsibility
-4. Use path aliases and module resolution to maintain clean import paths
 
 Example of ESM syntax:
+
 ```javascript
 // Importing
-import { function1, function2 } from './module';
-import * as module from './module';
+import { function1, function2 } from './module.js';
+import * as module from './module.js';
 
 // Exporting
 export const myFunction = () => {};
 export class MyClass {}
 ```
 
+### Why are extension mandatory?
+
+ESM requires explicit file extensions in import statements to ensure clarity and avoid ambiguity. This is a design choice that helps the JavaScript engine resolve modules correctly, especially in environments where both ESM and CommonJS coexist.
+
+When working with TypeScript, you still need to specify the `.js` file extension in your import statements, even if the original file is a TypeScript file.
+ 
 ## Typescript Support
 
 To use ESM in TypeScript, you need to configure your `tsconfig.json` file appropriately. Here’s an example configuration:
@@ -55,14 +53,3 @@ To use ESM in TypeScript, you need to configure your `tsconfig.json` file approp
   }
 }
 ```
-
-## Reference of usage in our organization
-
-ESM is used in our modern TypeScript/JavaScript projects as the default module system. Examples include:
-
-- Frontend applications built with Next.js
-- React Native applications
-- Node.js backend services
-- Shared utility libraries
-
-See also: [CommonJS](commonjs.md) (hold) for information about the legacy module system.
