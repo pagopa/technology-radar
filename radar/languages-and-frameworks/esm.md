@@ -18,11 +18,6 @@ tags: [javascript, nodejs, typescript]
 
 3. **Asynchronous by Design**: ESM supports both synchronous and asynchronous module loading, making it more flexible than CommonJS.
 
-4. **Better Developer Experience**:
-   - Clear dependency declarations at the top of files
-   - Named imports and exports for better code organization
-   - Better IDE support for code navigation and refactoring
-
 ## Use Cases
 
 - New JavaScript/TypeScript projects where module organization is important
