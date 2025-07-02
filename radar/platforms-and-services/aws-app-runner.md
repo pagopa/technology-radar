@@ -1,0 +1,29 @@
+---
+title: "AWS App Runner"
+ring: adopt
+quadrant: "platforms-and-aoe-services"
+tags: [cloud, aws, compute]
+---
+
+[AWS App Runner](https://aws.amazon.com/it/apprunner/) is a fully managed service that simplifies the deployment of containerized and serverless applications. It automates the process of building, deploying, and scaling applications, allowing developers to focus on code rather than infrastructure. With App Runner, you can deploy applications from source code or container images with automatic scaling and load balancing.
+
+It supports popular programming languages and frameworks, providing a quick and efficient way to launch and manage applications. App Runner integrates seamlessly with other AWS services, making it an easy-to-use platform for building modern, scalable, and resilient applications.
+
+## Use cases
+
+Prefer App Runner over ECS Fargate when:
+
+- you need to deploy applications quickly and easily without managing infrastructure
+- you don't need to customize the runtime environment or networking configuration
+
+Prefer ECS fargate when:
+
+- you want to use a language or runtime that App Runner doesn't support natively
+- you need specific libraries, custom configurations or private networking
+- you need to run batch jobs or long-running processes
+
+## Reference of usage in our organization
+
+We use AWS App Runner to run the opensource headless cms [strapi](https://strapi.io/) and build contents for the [corportate website](https://www.pagopa.it):
+
+https://github.com/pagopa/new-corporate-site-infrastructure
